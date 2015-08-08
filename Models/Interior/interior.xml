@@ -23,7 +23,7 @@
 
   <!-- working for Rembrandt -->
   <effect>
-    <inherits-from>Aircraft/Tu-134/Models/Effects/Glass/glass</inherits-from>
+    <inherits-from>Aircraft/Tu-134-JSB/Models/Effects/Glass/glass</inherits-from>
     <object-name>intvitres</object-name>
     <object-name>intvitreporte</object-name>
     <object-name>intvitresnoze0</object-name>
@@ -32,7 +32,7 @@
   <!-- Les sieges -->
   <model>
     <name>Seats</name>
-    <path>Aircraft/Tu-134/Models/Interior/Seats/All-Seats.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Seats/All-Seats.xml</path>
   </model>
 
   <animation>
@@ -74,7 +74,7 @@
   <!-- Pilote -->
   <!--
   <model>
-    <path>Aircraft/Tu-134/Models/Pilot/pilot.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Pilot/pilot.xml</path>
     <offsets>
       <x-m> -15.27948 </x-m>
       <y-m>  -0.54000 </y-m>
@@ -85,7 +85,7 @@
 
   <!-- Tableau de bord -->
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Panel/panel.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Panel/panel.xml</path>
     <offsets>
       <x-m> -16.056 </x-m>
       <y-m>   0.000 </y-m>
@@ -93,9 +93,79 @@
     </offsets>
   </model>
 
+<animation>
+  <type>rotate</type>
+  <object-name>yoke_l1</object-name>
+  <property>controls/flight/aileron</property>
+  <factor>50</factor>
+  <center>
+    <x-m>0</x-m>
+    <y-m>-0.564</y-m>
+    <z-m>0.027</z-m>
+  </center>
+  <axis>
+    <x>-1.0</x>
+    <y>0.0</y>
+    <z>0.0</z>
+  </axis>
+</animation>
+
+<animation>
+  <type>rotate</type>
+  <object-name>yoke_l1</object-name>
+  <object-name>yoke_l2</object-name>
+  <property>controls/flight/elevator</property>
+  <factor>6</factor>
+  <center>
+    <x-m>0.375</x-m>
+    <y-m>0.0</y-m>
+    <z-m>-0.65</z-m>
+  </center>
+  <axis>
+    <x>0.0</x>
+    <y>-1.0</y>
+    <z>0.0</z>
+  </axis>
+</animation>
+
+<animation>
+  <type>rotate</type>
+  <object-name>yoke_r1</object-name>
+  <property>controls/flight/aileron</property>
+  <factor>50</factor>
+  <center>
+    <x-m>0</x-m>
+    <y-m>0.564</y-m>
+    <z-m>0.027</z-m>
+  </center>
+  <axis>
+    <x>-1.0</x>
+    <y>0.0</y>
+    <z>0.0</z>
+  </axis>
+</animation>
+
+<animation>
+  <type>rotate</type>
+  <object-name>yoke_r1</object-name>
+  <object-name>yoke_r2</object-name>
+  <property>controls/flight/elevator</property>
+  <factor>6</factor>
+  <center>
+    <x-m>0.375</x-m>
+    <y-m>0.0</y-m>
+    <z-m>-0.65</z-m>
+  </center>
+  <axis>
+    <x>0.0</x>
+    <y>-1.0</y>
+    <z>0.0</z>
+  </axis>
+</animation>
+
   <!-- OverHead -->
   <model>
-    <path>Aircraft/Tu-134/Models/Interior/Panel/Overhead/overhead.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Panel/Overhead/overhead.xml</path>
     <offsets>
       <x-m> -15.40492 </x-m>
       <y-m>   0.00000 </y-m>
