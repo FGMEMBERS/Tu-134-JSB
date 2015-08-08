@@ -1,3 +1,12 @@
+Tu-134-JSB (JSBSim) - Based on Helijah's Tu-134 YASim model
+-----------------------------------------------------------
+
+Modified by lastmin-II, xcvb85
+
+JSBSim flight dynamics model by xcvb85 (2015)
+
+------
+
 English/Français
 
 [English]
