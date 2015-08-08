@@ -2,7 +2,7 @@
 
 <PropertyList>
 
-  <path>tu134.ac</path>
+  <path>tu134-jsb.ac</path>
   <path>navigator.ac</path>
 
   <animation>
@@ -201,7 +201,7 @@
 
   <!-- working for Rembrandt -->
   <effect>
-    <inherits-from>Aircraft/Tu-134/Models/Effects/Glass/glass</inherits-from>
+    <inherits-from>Aircraft/Tu-134-JSB/Models/Effects/Glass/glass</inherits-from>
     <object-name>vitres</object-name>
     <object-name>vitresnoze0</object-name>
     <object-name>vitreporte</object-name>
@@ -211,7 +211,7 @@
   
   <!-- Une ombre pour OSG -->
   <model>
-    <path>Aircraft/Tu-134/Models/shadow.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/shadow.xml</path>
     <offsets>
       <x-m>  1.85508 </x-m>
       <y-m>  0.00000 </y-m>
@@ -222,7 +222,7 @@
   <!-- Interieur -->
   <model>
     <name>Interieur</name>
-    <path>Aircraft/Tu-134/Models/Interior/interior.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/interior.xml</path>
   </model>
 
   <animation>
@@ -253,9 +253,9 @@
   </animation>
 
   <!-- Effets sur le sol -->
-  <!-- Roue front -->
+  <!-- Roue avant -->
   <model>
-    <path>Aircraft/Tu-134/Models/Effects/ground/ground0.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Effects/ground/ground0.xml</path>
     <offsets>
       <x-m> -14.426 </x-m>
       <y-m>   0.000 </y-m>
@@ -263,9 +263,9 @@
     </offsets>
   </model>
 
-  <!-- Roue left -->
+  <!-- Roue gauche -->
   <model>
-    <path>Aircraft/Tu-134/Models/Effects/ground/ground1.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Effects/ground/ground1.xml</path>
     <offsets>
       <x-m>  0.963 </x-m>
       <y-m> -4.776 </y-m>
@@ -273,9 +273,9 @@
     </offsets>
   </model>
 
-  <!-- Roue right -->
+  <!-- Roue droite -->
   <model>
-    <path>Aircraft/Tu-134/Models/Effects/ground/ground2.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Effects/ground/ground2.xml</path>
     <offsets>
       <x-m>  0.963 </x-m>
       <y-m>  4.776 </y-m>
@@ -284,9 +284,9 @@
   </model>
 
   <!-- Moteurs -->
-  <!-- left -->
+  <!-- Gauche -->
   <model>
-    <path>Aircraft/Tu-134/Models/Effects/smoke/smokeL.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Effects/smoke/smokeL.xml</path>
     <offsets>
       <x-m> 10.519 </x-m>
       <y-m> -2.055 </y-m>
@@ -295,7 +295,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Effects/trail/trailL.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Effects/trail/trailL.xml</path>
     <offsets>
       <x-m> 10.519 </x-m>
       <y-m> -2.055 </y-m>
@@ -303,9 +303,9 @@
     </offsets>
   </model>
 
-  <!-- right -->
+  <!-- Droite -->
   <model>
-    <path>Aircraft/Tu-134/Models/Effects/smoke/smokeR.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Effects/smoke/smokeR.xml</path>
     <offsets>
       <x-m> 10.519 </x-m>
       <y-m>  2.055 </y-m>
@@ -314,7 +314,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Effects/trail/trailR.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Effects/trail/trailR.xml</path>
     <offsets>
       <x-m> 10.519 </x-m>
       <y-m>  2.055 </y-m>
@@ -322,9 +322,9 @@
     </offsets>
   </model>
 
-  <!-- left -->
+  <!-- Gauche -->
   <model>
-    <path>Aircraft/Tu-134/Models/Effects/tiptrail/tiptrail.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Effects/tiptrail/tiptrail.xml</path>
     <offsets>
       <x-m>   8.034 </x-m>
       <y-m> -14.289 </y-m>
@@ -332,9 +332,9 @@
     </offsets>
   </model>
 
-  <!-- right -->
+  <!-- Droite -->
   <model>
-    <path>Aircraft/Tu-134/Models/Effects/tiptrail/tiptrail.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Effects/tiptrail/tiptrail.xml</path>
     <offsets>
       <x-m>  8.034 </x-m>
       <y-m> 14.289 </y-m>
@@ -342,8 +342,8 @@
     </offsets>
   </model>
 
-  <!-- left -->
-  <!-- right -->
+  <!-- Gauche -->
+  <!-- Droite -->
   <!-- Rotation des hélices des réacteurs -->
   <animation>
     <type>spin</type>
@@ -604,7 +604,7 @@
   </animation>
 
   <!-- Animation des portes -->
-  <!-- front -->
+  <!-- Avant -->
   <animation>
     <type>rotate</type>
     <object-name>porteAG1</object-name>
@@ -685,7 +685,7 @@
     </axis>
   </animation>
 
-  <!-- left -->
+  <!-- Gauche -->
   <animation>
     <type>rotate</type>
     <object-name>porteGE1</object-name>
@@ -787,7 +787,7 @@
     </axis>
   </animation>
 
-  <!-- right -->
+  <!-- Droite -->
   <animation>
     <type>rotate</type>
     <object-name>porteDE1</object-name>
@@ -891,7 +891,7 @@
 
   <!-- Rentré des roues -->
   <animation>
-    <name>Toutfront</name>
+    <name>ToutAvant</name>
     <object-name>axeA0</object-name>
     <object-name>axeA1</object-name>
     <object-name>axeA2</object-name>
@@ -981,7 +981,7 @@
   
   <animation>
     <type>rotate</type>
-    <object-name>Toutfront</object-name>
+    <object-name>ToutAvant</object-name>
     <property>gear/gear[0]/position-norm</property>
     <interpolation>
       <entry><ind> 0.0 </ind><dep> -91 </dep></entry>
@@ -1000,9 +1000,9 @@
     </axis>
   </animation>
 
-  <!-- left -->
+  <!-- Gauche -->
   <animation>
-    <name>TrainleftComplet</name>
+    <name>TrainGaucheComplet</name>
     <object-name>roueG1</object-name>
     <object-name>roueG2</object-name>
     <object-name>axeG0</object-name>
@@ -1014,7 +1014,7 @@
 
   <animation>
     <type>rotate</type>
-    <object-name>TrainleftComplet</object-name>
+    <object-name>TrainGaucheComplet</object-name>
     <property>gear/gear[1]/position-norm</property>
     <interpolation>
       <entry><ind> 0.0 </ind><dep> -65 </dep></entry>
@@ -1034,7 +1034,7 @@
   </animation>
 
   <animation>
-    <name>Trainleft</name>
+    <name>TrainGauche</name>
     <object-name>roueG1</object-name>
     <object-name>roueG2</object-name>
     <object-name>axeG0</object-name>
@@ -1043,7 +1043,7 @@
 
   <animation>
     <type>rotate</type>
-    <object-name>Trainleft</object-name>
+    <object-name>TrainGauche</object-name>
     <property>gear/gear[1]/position-norm</property>
     <interpolation>
       <entry><ind> 0.0 </ind><dep> -100 </dep></entry>
@@ -1083,9 +1083,9 @@
     </axis>
   </animation>
 
-  <!-- right -->
+  <!-- Droite -->
   <animation>
-    <name>TrainrightComplet</name>
+    <name>TrainDroitComplet</name>
     <object-name>roueD1</object-name>
     <object-name>roueD2</object-name>
     <object-name>axeD0</object-name>
@@ -1097,7 +1097,7 @@
 
   <animation>
     <type>rotate</type>
-    <object-name>TrainrightComplet</object-name>
+    <object-name>TrainDroitComplet</object-name>
     <property>gear/gear[2]/position-norm</property>
     <interpolation>
       <entry><ind> 0.0 </ind><dep> -65 </dep></entry>
@@ -1117,7 +1117,7 @@
   </animation>
 
   <animation>
-    <name>Trainright</name>
+    <name>TrainDroit</name>
     <object-name>roueD1</object-name>
     <object-name>roueD2</object-name>
     <object-name>axeD0</object-name>
@@ -1126,7 +1126,7 @@
 
   <animation>
     <type>rotate</type>
-    <object-name>Trainright</object-name>
+    <object-name>TrainDroit</object-name>
     <property>gear/gear[2]/position-norm</property>
     <interpolation>
       <entry><ind> 0.0 </ind><dep> -100 </dep></entry>
@@ -1168,7 +1168,7 @@
 
   <!-- Compression -->
   <animation>
-    <name>Ensemblefront</name>
+    <name>EnsembleAvant</name>
     <object-name>roueA</object-name>
     <object-name>axeA2</object-name>
     <object-name>axeA3</object-name>
@@ -1176,7 +1176,7 @@
   
   <animation>
     <type>translate</type>
-    <object-name>Ensemblefront</object-name>
+    <object-name>EnsembleAvant</object-name>
     <property>gear/gear[0]/compression-norm</property>
     <interpolation>
       <entry><ind> 0.00 </ind><dep> 0.00 </dep></entry>
@@ -1231,7 +1231,7 @@
   </animation>
   
   <animation>
-    <name>Ensembleleft</name>
+    <name>EnsembleGauche</name>
     <object-name>axeG0</object-name>
     <object-name>axeG1</object-name>
     <object-name>axeG2</object-name>
@@ -1241,7 +1241,7 @@
   </animation>
   
   <animation>
-    <name>SousEnsembleleft</name>
+    <name>SousEnsembleGauche</name>
     <object-name>axeG0</object-name>
     <object-name>axeG1</object-name>
     <object-name>roueG1</object-name>
@@ -1250,7 +1250,7 @@
   
   <animation>
     <type>rotate</type>
-    <object-name>SousEnsembleleft</object-name>
+    <object-name>SousEnsembleGauche</object-name>
     <property>gear/gear[1]/compression-norm</property>
     <interpolation>
       <entry><ind> 0.0 </ind><dep> -15 </dep></entry>
@@ -1271,7 +1271,7 @@
   
   <animation>
     <type>translate</type>
-    <object-name>Ensembleleft</object-name>
+    <object-name>EnsembleGauche</object-name>
     <property>gear/gear[1]/compression-norm</property>
     <interpolation>
       <entry><ind> 0.0 </ind><dep> 0.00 </dep></entry>
@@ -1291,7 +1291,7 @@
   </animation>
   
   <animation>
-    <name>Ensembleright</name>
+    <name>EnsembleDroit</name>
     <object-name>axeD0</object-name>
     <object-name>axeD1</object-name>
     <object-name>axeD2</object-name>
@@ -1301,7 +1301,7 @@
   </animation>
   
   <animation>
-    <name>SousEnsembleright</name>
+    <name>SousEnsembleDroit</name>
     <object-name>axeD0</object-name>
     <object-name>axeD1</object-name>
     <object-name>roueD1</object-name>
@@ -1310,7 +1310,7 @@
   
   <animation>
     <type>rotate</type>
-    <object-name>SousEnsembleright</object-name>
+    <object-name>SousEnsembleDroit</object-name>
     <property>gear/gear[2]/compression-norm</property>
     <interpolation>
       <entry><ind> 0.0 </ind><dep> -15 </dep></entry>
@@ -1331,7 +1331,7 @@
   
   <animation>
     <type>translate</type>
-    <object-name>Ensembleright</object-name>
+    <object-name>EnsembleDroit</object-name>
     <property>gear/gear[2]/compression-norm</property>
     <interpolation>
       <entry><ind> 0.0 </ind><dep> 0.00 </dep></entry>
@@ -1350,9 +1350,9 @@
     </axis>
   </animation>
   
-  <!-- Rotation de la roue front en fonction de la gouverne de direction -->
+  <!-- Rotation de la roue avant en fonction de la gouverne de direction -->
   <animation>
-    <name>Trainfront</name>
+    <name>TrainAvant</name>
     <object-name>roueA</object-name>
     <object-name>axeA0</object-name>
     <object-name>axeA2</object-name>
@@ -1362,7 +1362,7 @@
 
   <animation>
     <type>rotate</type>
-    <object-name>Trainfront</object-name>
+    <object-name>TrainAvant</object-name>
     <property>surface-positions/rudder-pos-norm</property>
     <factor> -20 </factor>
     <center>
@@ -1523,7 +1523,7 @@
 
   <!-- Ajout des effets lumineux -->
   <model>
-    <path>Aircraft/Tu-134/Models/lights/beacon.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/lights/beacon.xml</path>
     <offsets>
       <x-m> 0.00000 </x-m>
       <y-m> 0.00000 </y-m>
@@ -1532,7 +1532,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/lights/RedLight.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/lights/RedLight.xml</path>
     <offsets>
       <x-m>   6.44273 </x-m>
       <y-m> -14.44380 </y-m>
@@ -1541,7 +1541,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/lights/StrobeLight.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/lights/StrobeLight.xml</path>
     <offsets>
       <x-m>   6.56320 </x-m>
       <y-m> -14.45990 </y-m>
@@ -1550,7 +1550,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/lights/GreenLight.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/lights/GreenLight.xml</path>
     <offsets>
       <x-m>  6.44273 </x-m>
       <y-m> 14.44380 </y-m>
@@ -1559,7 +1559,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/lights/StrobeLight.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/lights/StrobeLight.xml</path>
     <offsets>
       <x-m>  6.56320 </x-m>
       <y-m> 14.45990 </y-m>
@@ -1569,7 +1569,7 @@
 
   <!-- Light cone left -->
   <model>
-    <path>Aircraft/Tu-134/Models/lights/light-cone.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/lights/light-cone.xml</path>
     <offsets>
       <x-m>      -16.04573 </x-m>
       <y-m>       -0.94337 </y-m>
@@ -1580,7 +1580,7 @@
 
   <!-- Light cone right -->
   <model>
-    <path>Aircraft/Tu-134/Models/lights/light-cone.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/lights/light-cone.xml</path>
     <offsets>
       <x-m>      -16.04573 </x-m>
       <y-m>        0.94337 </y-m>
@@ -1591,7 +1591,7 @@
 
   <!-- Light back cone left -->
   <model>
-    <path>Aircraft/Tu-134/Models/lights/light-cone.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/lights/light-cone.xml</path>
     <offsets>
       <x-m>       -0.1400 </x-m>
       <y-m>       -4.2571 </y-m>
@@ -1602,7 +1602,7 @@
   
   <!-- Light back cone right -->
   <model>
-    <path>Aircraft/Tu-134/Models/lights/light-cone.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/lights/light-cone.xml</path>
     <offsets>
       <x-m>       -0.1400 </x-m>
       <y-m>        4.2571 </y-m>
@@ -1612,14 +1612,14 @@
   </model>
   
   <animation>
-    <name>Lampeleft</name>
+    <name>LampeGauche</name>
     <object-name>lightL</object-name>
     <object-name>glasslightL</object-name>
   </animation>
   
   <animation>
     <type>rotate</type>
-    <object-name>Lampeleft</object-name>
+    <object-name>LampeGauche</object-name>
     <property>/controls/lighting/landing-lights</property>
     <interpolation>
       <entry><ind> 0 </ind><dep>   0 </dep></entry>
@@ -1636,14 +1636,14 @@
   </animation>
       
   <animation>
-    <name>Lamperight</name>
+    <name>LampeDroite</name>
     <object-name>lightR</object-name>
     <object-name>glasslightR</object-name>
   </animation>
   
   <animation>
     <type>rotate</type>
-    <object-name>Lamperight</object-name>
+    <object-name>LampeDroite</object-name>
     <property>/controls/lighting/landing-lights</property>
     <interpolation>
       <entry><ind> 0 </ind><dep>   0 </dep></entry>

@@ -7,7 +7,7 @@
   <nasal>
     <load>
       var update = aircraft.overlay_update.new();
-      update.add("Aircraft/Tu-134/Models/Liveries", "sim/model/livery/noze");    
+      update.add("Aircraft/Tu-134-JSB/Models/Liveries", "sim/model/livery/noze");    
 
       var self = cmdarg();
 
@@ -230,7 +230,7 @@
 
   <!-- working for Rembrandt -->
   <effect>
-    <inherits-from>Aircraft/Tu-134/Models/Effects/Glass/glass</inherits-from>
+    <inherits-from>Aircraft/Tu-134-JSB/Models/Effects/Glass/glass</inherits-from>
     <object-name>vitres</object-name>
     <object-name>vitresnoze0</object-name>
     <object-name>vitreporte</object-name>
@@ -240,7 +240,7 @@
   
   <!-- Une ombre pour OSG -->
   <model>
-    <path>Aircraft/Tu-134/Models/shadow.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/shadow.xml</path>
     <offsets>
       <x-m>  1.85508 </x-m>
       <y-m>  0.00000 </y-m>
@@ -251,7 +251,7 @@
   <!-- Interieur -->
   <model>
     <name>Interieur</name>
-    <path>Aircraft/Tu-134/Models/Interior/interior.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/interior.xml</path>
   </model>
 
   <animation>
@@ -296,7 +296,7 @@
   <!-- Effets sur le sol -->
   <!-- Roue avant -->
   <model>
-    <path>Aircraft/Tu-134/Models/Effects/ground/ground0.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Effects/ground/ground0.xml</path>
     <offsets>
       <x-m> -14.426 </x-m>
       <y-m>   0.000 </y-m>
@@ -306,7 +306,7 @@
 
   <!-- Roue gauche -->
   <model>
-    <path>Aircraft/Tu-134/Models/Effects/ground/ground1.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Effects/ground/ground1.xml</path>
     <offsets>
       <x-m>  0.963 </x-m>
       <y-m> -4.776 </y-m>
@@ -316,7 +316,7 @@
 
   <!-- Roue droite -->
   <model>
-    <path>Aircraft/Tu-134/Models/Effects/ground/ground2.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Effects/ground/ground2.xml</path>
     <offsets>
       <x-m>  0.963 </x-m>
       <y-m>  4.776 </y-m>
@@ -327,7 +327,7 @@
   <!-- Moteurs -->
   <!-- Gauche -->
   <model>
-    <path>Aircraft/Tu-134/Models/Effects/smoke/smokeL.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Effects/smoke/smokeL.xml</path>
     <offsets>
       <x-m> 10.519 </x-m>
       <y-m> -2.055 </y-m>
@@ -336,7 +336,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Effects/trail/trailL.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Effects/trail/trailL.xml</path>
     <offsets>
       <x-m> 10.519 </x-m>
       <y-m> -2.055 </y-m>
@@ -346,7 +346,7 @@
 
   <!-- Droite -->
   <model>
-    <path>Aircraft/Tu-134/Models/Effects/smoke/smokeR.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Effects/smoke/smokeR.xml</path>
     <offsets>
       <x-m> 10.519 </x-m>
       <y-m>  2.055 </y-m>
@@ -355,7 +355,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/Effects/trail/trailR.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Effects/trail/trailR.xml</path>
     <offsets>
       <x-m> 10.519 </x-m>
       <y-m>  2.055 </y-m>
@@ -365,7 +365,7 @@
 
   <!-- Gauche -->
   <model>
-    <path>Aircraft/Tu-134/Models/Effects/tiptrail/tiptrail.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Effects/tiptrail/tiptrail.xml</path>
     <offsets>
       <x-m>   8.034 </x-m>
       <y-m> -14.289 </y-m>
@@ -375,7 +375,7 @@
 
   <!-- Droite -->
   <model>
-    <path>Aircraft/Tu-134/Models/Effects/tiptrail/tiptrail.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Effects/tiptrail/tiptrail.xml</path>
     <offsets>
       <x-m>  8.034 </x-m>
       <y-m> 14.289 </y-m>
@@ -1564,7 +1564,7 @@
 
   <!-- Ajout des effets lumineux -->
   <model>
-    <path>Aircraft/Tu-134/Models/lights/beacon.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/lights/beacon.xml</path>
     <offsets>
       <x-m> 0.00000 </x-m>
       <y-m> 0.00000 </y-m>
@@ -1573,7 +1573,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/lights/RedLight.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/lights/RedLight.xml</path>
     <offsets>
       <x-m>   6.44273 </x-m>
       <y-m> -14.44380 </y-m>
@@ -1582,7 +1582,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/lights/StrobeLight.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/lights/StrobeLight.xml</path>
     <offsets>
       <x-m>   6.56320 </x-m>
       <y-m> -14.45990 </y-m>
@@ -1591,7 +1591,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/lights/GreenLight.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/lights/GreenLight.xml</path>
     <offsets>
       <x-m>  6.44273 </x-m>
       <y-m> 14.44380 </y-m>
@@ -1600,7 +1600,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Tu-134/Models/lights/StrobeLight.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/lights/StrobeLight.xml</path>
     <offsets>
       <x-m>  6.56320 </x-m>
       <y-m> 14.45990 </y-m>
@@ -1610,7 +1610,7 @@
 
   <!-- Light cone left -->
   <model>
-    <path>Aircraft/Tu-134/Models/lights/light-cone.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/lights/light-cone.xml</path>
     <offsets>
       <x-m>      -16.04573 </x-m>
       <y-m>       -0.94337 </y-m>
@@ -1621,7 +1621,7 @@
 
   <!-- Light cone right -->
   <model>
-    <path>Aircraft/Tu-134/Models/lights/light-cone.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/lights/light-cone.xml</path>
     <offsets>
       <x-m>      -16.04573 </x-m>
       <y-m>        0.94337 </y-m>
@@ -1632,7 +1632,7 @@
 
   <!-- Light back cone left -->
   <model>
-    <path>Aircraft/Tu-134/Models/lights/light-cone.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/lights/light-cone.xml</path>
     <offsets>
       <x-m>       -0.1400 </x-m>
       <y-m>       -4.2571 </y-m>
@@ -1643,7 +1643,7 @@
   
   <!-- Light back cone right -->
   <model>
-    <path>Aircraft/Tu-134/Models/lights/light-cone.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/lights/light-cone.xml</path>
     <offsets>
       <x-m>       -0.1400 </x-m>
       <y-m>        4.2571 </y-m>

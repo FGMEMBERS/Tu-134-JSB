@@ -1,0 +1,154 @@
+256c297
+<   <!-- Roue front -->
+---
+>   <!-- Roue avant -->
+266c307
+<   <!-- Roue left -->
+---
+>   <!-- Roue gauche -->
+276c317
+<   <!-- Roue right -->
+---
+>   <!-- Roue droite -->
+287c328
+<   <!-- left -->
+---
+>   <!-- Gauche -->
+306c347
+<   <!-- right -->
+---
+>   <!-- Droite -->
+325c366
+<   <!-- left -->
+---
+>   <!-- Gauche -->
+335c376
+<   <!-- right -->
+---
+>   <!-- Droite -->
+345,346c386,387
+<   <!-- left -->
+<   <!-- right -->
+---
+>   <!-- Gauche -->
+>   <!-- Droite -->
+607c648
+<   <!-- front -->
+---
+>   <!-- Avant -->
+688c729
+<   <!-- left -->
+---
+>   <!-- Gauche -->
+790c831
+<   <!-- right -->
+---
+>   <!-- Droite -->
+894c935
+<     <name>Toutfront</name>
+---
+>     <name>ToutAvant</name>
+984c1025
+<     <object-name>Toutfront</object-name>
+---
+>     <object-name>ToutAvant</object-name>
+1003c1044
+<   <!-- left -->
+---
+>   <!-- Gauche -->
+1005c1046
+<     <name>TrainleftComplet</name>
+---
+>     <name>TrainGaucheComplet</name>
+1017c1058
+<     <object-name>TrainleftComplet</object-name>
+---
+>     <object-name>TrainGaucheComplet</object-name>
+1037c1078
+<     <name>Trainleft</name>
+---
+>     <name>TrainGauche</name>
+1046c1087
+<     <object-name>Trainleft</object-name>
+---
+>     <object-name>TrainGauche</object-name>
+1086c1127
+<   <!-- right -->
+---
+>   <!-- Droite -->
+1088c1129
+<     <name>TrainrightComplet</name>
+---
+>     <name>TrainDroitComplet</name>
+1100c1141
+<     <object-name>TrainrightComplet</object-name>
+---
+>     <object-name>TrainDroitComplet</object-name>
+1120c1161
+<     <name>Trainright</name>
+---
+>     <name>TrainDroit</name>
+1129c1170
+<     <object-name>Trainright</object-name>
+---
+>     <object-name>TrainDroit</object-name>
+1171c1212
+<     <name>Ensemblefront</name>
+---
+>     <name>EnsembleAvant</name>
+1179c1220
+<     <object-name>Ensemblefront</object-name>
+---
+>     <object-name>EnsembleAvant</object-name>
+1234c1275
+<     <name>Ensembleleft</name>
+---
+>     <name>EnsembleGauche</name>
+1244c1285
+<     <name>SousEnsembleleft</name>
+---
+>     <name>SousEnsembleGauche</name>
+1274c1315
+<     <object-name>Ensembleleft</object-name>
+---
+>     <object-name>EnsembleGauche</object-name>
+1294c1335
+<     <name>Ensembleright</name>
+---
+>     <name>EnsembleDroit</name>
+1304c1345
+<     <name>SousEnsembleright</name>
+---
+>     <name>SousEnsembleDroit</name>
+1334c1375
+<     <object-name>Ensembleright</object-name>
+---
+>     <object-name>EnsembleDroit</object-name>
+1353c1394
+<   <!-- Rotation de la roue front en fonction de la gouverne de direction -->
+---
+>   <!-- Rotation de la roue avant en fonction de la gouverne de direction -->
+1355c1396
+<     <name>Trainfront</name>
+---
+>     <name>TrainAvant</name>
+1365c1406
+<     <object-name>Trainfront</object-name>
+---
+>     <object-name>TrainAvant</object-name>
+1615c1656
+<     <name>Lampeleft</name>
+---
+>     <name>LampeGauche</name>
+1622c1663
+<     <object-name>Lampeleft</object-name>
+---
+>     <object-name>LampeGauche</object-name>
+1639c1680
+<     <name>Lamperight</name>
+---
+>     <name>LampeDroite</name>
+1646c1687
+<     <object-name>Lamperight</object-name>
+---
+>     <object-name>LampeDroite</object-name>
