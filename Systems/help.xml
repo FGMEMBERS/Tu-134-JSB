@@ -5,10 +5,6 @@
   <title>Tu 134</title>
   <line>______________________________________________</line>
   <key>
-    <name>}</name>
-    <desc>Engines Startup/Shutdown</desc>
-  </key>
-  <key>
     <name>d</name>
     <desc>Open/Close door</desc>
   </key>

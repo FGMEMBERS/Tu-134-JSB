@@ -12,13 +12,11 @@
     <condition>
       <and>
         <greater-than>
-          <!-- /engines/engine[0]/n2 -->
-          <property>sim/multiplay/generic/float[4]</property>
+          <property>/engines/engine[0]/n2</property>
           <value>75</value>
         </greater-than>
         <less-than>
-          <!-- /position/altitude-ft -->
-          <property>sim/multiplay/generic/float[3]</property>
+          <property>/position/altitude-ft</property>
           <value>3000</value>
         </less-than>
       </and>

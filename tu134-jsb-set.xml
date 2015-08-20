@@ -9,9 +9,9 @@
     <flight-model>jsb</flight-model>
     <aero>tu134-jsb</aero>
 
-  <startup>
-   <splash-texture>Aircraft/Tu-134-JSB/tu134-jsb-splash.png</splash-texture>
-  </startup>
+    <startup>
+      <splash-texture>Aircraft/Tu-134-JSB/tu134-jsb-splash.png</splash-texture>
+    </startup>
 
     <sound>
       <path>Aircraft/Tu-134-JSB/Sounds/tu134-jsb-sound.xml</path>
@@ -21,8 +21,13 @@
       <path>Aircraft/Tu-134-JSB/Models/tu134-jsb.xml</path>
       <livery>
         <file type="string">default</file>
-        <noze>1</noze>
       </livery>
+      <pushback>
+        <kp type="double">100</kp>
+        <ki type="double">25</ki>
+        <kd type="double">0</kd>
+        <position-norm type="double">0</position-norm>
+      </pushback>
     </model>
 
     <flaps>
@@ -36,42 +41,14 @@
     
     <systems>
       <path>Aircraft/Tu-134-JSB/Systems/tu134-jsb-systems.xml</path>
-    </systems>  
+    </systems>
     
     <instrumentation>
       <path>Aircraft/Tu-134-JSB/Systems/instrumentation.xml</path>
     </instrumentation>
 
-    <multiplay>
-      <chat_display>1</chat_display>
-      <generic> 
-        <int   n="0"  type="int">0</int>                                        <!--  0 immat -->
-        <int   n="1"  type="int">0</int>                                        <!--  1 immat -->
-        <int   n="2"  type="int">0</int>                                        <!--  2 immat -->
-        <int   n="3"  type="int">0</int>                                        <!--  3 immat -->
-        <int   n="4"  type="int">0</int>                                        <!--  4 immat -->
-        <int   n="5"  type="int">0</int>                                        <!--  5 immat -->
-        <int   n="8"  type="int" alias="/sim/model/livery/noze">0</int>         <!--  8 Noze type -->
-        <float n="0"  alias="/instrumentation/doors/crew/position-norm"/>
-        <float n="1"  alias="/instrumentation/doors/passenger/position-norm"/>
-        <float n="2"  alias="/position/gear-agl-m">0</float>                    <!--  2 altitude for MP shadow -->
-        <float n="3"  alias="/position/altitude-ft">0</float>                   <!--  3 altitude for smoke -->
-        <float n="4"  alias="/engines/engine[0]/n2"/>
-        <float n="5"  alias="/engines/engine[1]/n2"/>
-        <float n="6"  alias="/controls/engines/engine[0]/throttle"/>
-        <float n="7"  alias="/controls/engines/engine[1]/throttle"/>
-        <float n="8"  alias="/gear/gear[0]/wow/"/>
-        <float n="9"  alias="/gear/gear[1]/wow/"/>
-        <float n="10" alias="/gear/gear[2]/wow/"/>
-        <float n="11" alias="/gear/gear[0]/rollspeed-ms"/>
-        <float n="12" alias="/gear/gear[1]/rollspeed-ms"/>
-        <float n="13" alias="/gear/gear[2]/rollspeed-ms"/>
-        <!-- For Bombable -->
-        <int type="int" n="10" alias="controls/armament/trigger">0</int>
-        <string n="9" type="string"/>
-      </generic>
-    </multiplay>
-
+    <help include="Systems/help.xml"/>
+    <menubar include="Dialogs/tu134-jsb-menu.xml"/>
   </sim>
 
   <input>
@@ -94,6 +71,27 @@
    <reverser-position type="double">0.000000</reverser-position>
   </engine>
  </engines>
+
+  <consumables>
+    <fuel>
+      <tank n="0"><name>Left wing outer tank</name></tank>
+      <tank n="1"><name>Left wing middle tank</name></tank>
+      <tank n="2"><name>Left wing inner tank</name></tank>
+      <tank n="3"><name>Central tank</name></tank>
+      <tank n="4"><name>Right wing inner tank</name></tank>
+      <tank n="5"><name>Right wing middle tank</name></tank>
+      <tank n="6"><name>Right wing outer tank</name></tank>
+    </fuel>
+  </consumables>
+
+  <payload>
+    <weight>
+      <name type="string">PAX</name>
+      <weight-lb alias="/fdm/jsbsim/inertia/pointmass-weight-lbs[1]"/>
+      <min-lb type="double">0</min-lb>
+      <max-lb type="double">18000</max-lb>
+    </weight>
+  </payload>
 
   <nasal>
     <doors>

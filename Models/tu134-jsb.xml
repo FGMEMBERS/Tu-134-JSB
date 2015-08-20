@@ -5,6 +5,25 @@
   <path>tu134-jsb.ac</path>
   <path>navigator.ac</path>
 
+  <nasal>
+    <load>
+      var livery_update = aircraft.livery_update.new("Aircraft/Tu-134-JSB/Models/Liveries", 10);
+    </load>
+    <unload>
+      livery_update.stop();
+    </unload>
+  </nasal>
+
+  <model>
+    <name>Pushback</name>
+    <path>Models/Airport/Pushback/Goldhofert.xml</path>
+    <offsets>
+      <x-m>-15.0</x-m>
+      <y-m>  0.0</y-m>
+      <z-m> -4.5</z-m>
+    </offsets>
+  </model>
+
   <animation>
     <!-- Objets opaques -->
     <object-name>fuselage</object-name>
@@ -42,7 +61,7 @@
     <object-name>supportsmoteurs</object-name>
     <object-name>antennes</object-name>
     <object-name>air</object-name>
-    <object-name>noze0</object-name>
+    <object-name>nose</object-name>
 
     <object-name>trous</object-name>
     <object-name>axeA0</object-name>
@@ -120,7 +139,7 @@
     <object-name>supportsmoteurs</object-name>
     <object-name>antennes</object-name>
     <object-name>air</object-name>
-    <object-name>noze0</object-name>
+    <object-name>nose</object-name>
 
     <object-name>trous</object-name>
     <object-name>axeA1</object-name>
@@ -196,7 +215,7 @@
     <object-name>supportsmoteurs</object-name>
     <object-name>antennes</object-name>
     <object-name>air</object-name>
-    <object-name>noze0</object-name>
+    <object-name>nose</object-name>
   </effect>
 
   <!-- working for Rembrandt -->
@@ -228,28 +247,6 @@
   <animation>
     <type>noshadow</type>
     <object-name>Interieur</object-name>
-  </animation>
-
-  <animation>
-    <type>select</type>
-    <object-name>noze1</object-name>
-    <condition>
-      <equals>
-        <value>0</value>
-        <value>1</value>
-      </equals>
-    </condition>
-  </animation>
-
-  <animation>
-    <type>select</type>
-    <object-name>noze2</object-name>
-    <condition>
-      <equals>
-        <value>0</value>
-        <value>2</value>
-      </equals>
-    </condition>
   </animation>
 
   <!-- Effets sur le sol -->
