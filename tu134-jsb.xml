@@ -784,7 +784,7 @@
                     <property>metrics/bw-ft</property>
                     <property>aero/bi2vel</property>
                     <property>velocities/p-aero-rad_sec</property>
-                    <value>-1.958</value>
+                    <value>-0.5</value>
                 </product>
             </function>
             <function name="aero/coefficient/Clr">
@@ -795,7 +795,7 @@
                     <property>metrics/bw-ft</property>
                     <property>aero/bi2vel</property>
                     <property>velocities/r-aero-rad_sec</property>
-                    <value>-0.195</value>
+                    <value>0.15</value>
                 </product>
             </function>
             <function name="aero/coefficient/Clda">
@@ -808,12 +808,12 @@
                     <table>
                         <independentVar>velocities/mach</independentVar>
                         <tableData>
-                          0.3           -14         
-                          0.5           -16.2       
-                          0.8           -16.2       
+                          0.15          0.0659      
+                          0.5           0.0595      
+                          1             0.03438     
                         </tableData>
                     </table>
-                    <value>-0.016</value>
+                    <value>1.4</value>
                 </product>
             </function>
             <function name="aero/coefficient/Cldr">
