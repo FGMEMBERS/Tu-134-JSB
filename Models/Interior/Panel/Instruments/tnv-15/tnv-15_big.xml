@@ -8,7 +8,7 @@
     -->
 
 <!-- TNV-15 termometer for Flight Engineer panel
-3D instrument for Tu-154 -->
+3D instrument for Tu-134 -->
 <PropertyList>
  <path>tnv-15_big.ac</path>
 <!-- Internal instruments lighting -->
@@ -17,9 +17,9 @@
   <object-name>base</object-name>
   <object-name>needle</object-name>
   <emission>
-    <red-prop>tu154/light/instruments/int-red</red-prop>
-    <green-prop>tu154/light/instruments/int-green</green-prop>
-    <blue-prop>tu154/light/instruments/int-blue</blue-prop>
+    <red-prop>Tu-134/light/instruments/int-red</red-prop>
+    <green-prop>Tu-134/light/instruments/int-green</green-prop>
+    <blue-prop>Tu-134/light/instruments/int-blue</blue-prop>
   </emission>
 </animation>
 
@@ -28,7 +28,7 @@
 <animation>
     <type>rotate</type>
     <object-name>needle</object-name>
-    <!--<property>tu154/instrumentation/tnv-15/indicated-t-degc</property>-->
+    <!--<property>Tu-134/instrumentation/tnv-15/indicated-t-degc</property>-->
     <property>environment/temperature-degc</property>
     <interpolation>
       <entry><ind>	-60.0</ind>	<dep>	-108.0</dep></entry>

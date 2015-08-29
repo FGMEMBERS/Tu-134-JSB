@@ -1,0 +1,23 @@
+AC3Db
+MATERIAL "DefaultWhite" rgb 1 1 1  amb 1 1 1  emis 0 0 0  spec 0.5 0.5 0.5  shi 64  trans 0
+OBJECT world
+name "Blender_export__tablo_absu.ac"
+kids 1
+OBJECT poly
+name "Plane"
+texture "tablo_absu.png"
+texrep 1 1
+numvert 4
+0.0000000 -0.0795600 0.1735500
+0.0000000 0.0795600 0.1735500
+0.0000000 -0.0795600 -0.1735500
+0.0000000 0.0795600 -0.1735500
+numsurf 1
+SURF 0X20
+mat 0
+refs 4
+1 0.001891 0.998109
+0 0.001891 0.001891
+2 0.998109 0.001891
+3 0.998109 0.998109
+kids 0

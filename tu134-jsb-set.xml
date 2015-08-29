@@ -50,13 +50,6 @@
     <multiplay>
       <chat_display>1</chat_display>
       <generic> 
-        <int   n="0"  type="int">0</int>                                        <!--  0 immat -->
-        <int   n="1"  type="int">0</int>                                        <!--  1 immat -->
-        <int   n="2"  type="int">0</int>                                        <!--  2 immat -->
-        <int   n="3"  type="int">0</int>                                        <!--  3 immat -->
-        <int   n="4"  type="int">0</int>                                        <!--  4 immat -->
-        <int   n="5"  type="int">0</int>                                        <!--  5 immat -->
-        <int   n="8"  type="int" alias="/sim/model/livery/noze">0</int>         <!--  8 Noze type -->
         <float n="0"  alias="/instrumentation/doors/crew/position-norm"/>
         <float n="1"  alias="/instrumentation/doors/passenger/position-norm"/>
         <float n="2"  alias="/position/gear-agl-m">0</float>                    <!--  2 altitude for MP shadow -->
@@ -131,10 +124,9 @@
       <file>Aircraft/Tu-134-JSB/Nasal/light.nas</file>
       <file>Aircraft/Tu-134-JSB/Nasal/liveries.nas</file>
       <file>Aircraft/Tu-134-JSB/Nasal/altimeter.nas</file>
-<!--  <file>Aircraft/Tu-134-JSB/Nasal/immat.nas</file> -->
     </tu134-jsb>
     <instruments>
-      <file>Aircraft/Tu-134-JSB/Nasal/idr.nas</file>
+<!--      <file>Aircraft/Tu-134-JSB/Nasal/idr.nas</file> -->
     </instruments>
   </nasal>
 
