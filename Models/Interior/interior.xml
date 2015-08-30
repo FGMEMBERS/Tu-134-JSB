@@ -58,34 +58,9 @@
     </emission>
   </animation>
 
-  <animation>
-    <type>select</type>
-    <object-name>inttournoze0</object-name>
-    <object-name>nezinterieur</object-name>
-    <object-name>intvitresnoze0</object-name>
-    <condition>
-      <equals>
-        <property>sim/multiplay/generic/int[8]</property>
-        <value>0</value>
-      </equals>
-    </condition>
-  </animation>
-
-  <!-- Pilote -->
-  <!--
+  <!-- cockpit panels -->
   <model>
-    <path>Aircraft/Tu-134-JSB/Models/Pilot/pilot.xml</path>
-    <offsets>
-      <x-m> -15.27948 </x-m>
-      <y-m>  -0.54000 </y-m>
-      <z-m>  -0.94552 </z-m>
-    </offsets>
-  </model>
-  -->
-
-  <!-- Tableau de bord -->
-  <model>
-    <path>Aircraft/Tu-134-JSB/Models/Interior/Panel/panel.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/instruments.xml</path>
     <offsets>
       <x-m> -16.056 </x-m>
       <y-m>   0.000 </y-m>
@@ -99,9 +74,9 @@
   <property>controls/flight/aileron</property>
   <factor>50</factor>
   <center>
-    <x-m>0</x-m>
+    <x-m>-16.056</x-m>
     <y-m>-0.564</y-m>
-    <z-m>0.027</z-m>
+    <z-m>-0.845</z-m>
   </center>
   <axis>
     <x>-1.0</x>
@@ -117,9 +92,9 @@
   <property>controls/flight/elevator</property>
   <factor>6</factor>
   <center>
-    <x-m>0.375</x-m>
-    <y-m>0.0</y-m>
-    <z-m>-0.65</z-m>
+    <x-m>-15.681</x-m>
+    <y-m>  0.0</y-m>
+    <z-m> -1.522</z-m>
   </center>
   <axis>
     <x>0.0</x>
@@ -134,9 +109,9 @@
   <property>controls/flight/aileron</property>
   <factor>50</factor>
   <center>
-    <x-m>0</x-m>
-    <y-m>0.564</y-m>
-    <z-m>0.027</z-m>
+    <x-m>-16.056</x-m>
+    <y-m> 0.564</y-m>
+    <z-m>-0.845</z-m>
   </center>
   <axis>
     <x>-1.0</x>
@@ -152,9 +127,9 @@
   <property>controls/flight/elevator</property>
   <factor>6</factor>
   <center>
-    <x-m>0.375</x-m>
-    <y-m>0.0</y-m>
-    <z-m>-0.65</z-m>
+    <x-m>-15.681</x-m>
+    <y-m>  0.0</y-m>
+    <z-m> -1.522</z-m>
   </center>
   <axis>
     <x>0.0</x>
@@ -165,7 +140,7 @@
 
   <!-- OverHead -->
   <model>
-    <path>Aircraft/Tu-134-JSB/Models/Interior/Panel/Overhead/overhead.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Overhead/overhead.xml</path>
     <offsets>
       <x-m> -15.40492 </x-m>
       <y-m>   0.00000 </y-m>

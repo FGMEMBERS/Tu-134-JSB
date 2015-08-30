@@ -8,10 +8,8 @@ Modified by lastmin-II, 07.2015
 
 <PropertyList>
 
-  <path>panel.ac</path>
-
   <animation>
-    <object-name>panel</object-name>
+    <object-name>panel1</object-name>
     <object-name>panel2</object-name>
     <object-name>panel3</object-name>
   </animation>
@@ -19,7 +17,7 @@ Modified by lastmin-II, 07.2015
   <!-- left panel -->
   <!-- ABSU WARNINGS -->
   <model>
-    <path>Aircraft/Tu-134-JSB/Models/Interior/Panel/Instruments/Warnings/tablo_absu.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/Warnings/tablo_absu.xml</path>
     <offsets>
       <x-m>  0.188 </x-m>
       <y-m> -0.500 </y-m>
@@ -29,7 +27,7 @@ Modified by lastmin-II, 07.2015
 
   <!-- AI 2 -->
   <model>
-    <path>Aircraft/Tu-134-JSB/Models/Interior/Panel/Instruments/agb/agb.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/agb/agb.xml</path>
     <offsets>
       <x-m>  0.188 </x-m>
       <y-m> -0.380 </y-m>
@@ -39,7 +37,7 @@ Modified by lastmin-II, 07.2015
 
   <!-- AI -->
   <model>
-    <path>Aircraft/Tu-134-JSB/Models/Interior/Panel/Instruments/ai/ai.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/ai/ai.xml</path>
     <offsets>
       <x-m>  0.190 </x-m>
       <y-m> -0.560 </y-m>
@@ -49,7 +47,7 @@ Modified by lastmin-II, 07.2015
 
   <!-- bank angle -->
   <model>
-    <path>Aircraft/Tu-134-JSB/Models/Interior/Panel/Instruments/turn/turn.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/turn/turn.xml</path>
     <offsets>
       <x-m>  0.188 </x-m>
       <y-m> -0.770 </y-m>
@@ -59,7 +57,7 @@ Modified by lastmin-II, 07.2015
 
   <!-- ASI -->
   <model>
-    <path>Aircraft/Tu-134-JSB/Models/Interior/Panel/Instruments/asi/asi.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/asi/asi.xml</path>
     <offsets>
       <x-m>  0.187 </x-m>
       <y-m> -0.666 </y-m>
@@ -69,7 +67,7 @@ Modified by lastmin-II, 07.2015
 
   <!-- VSI -->
   <model>
-    <path>Aircraft/Tu-134-JSB/Models/Interior/Panel/Instruments/vsi/vsi.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/vsi/vsi.xml</path>
     <offsets>
       <x-m>  0.187 </x-m>
       <y-m> -0.455 </y-m>
@@ -79,7 +77,7 @@ Modified by lastmin-II, 07.2015
 
   <!-- Radio ALT -->
   <model>
-    <path>Aircraft/Tu-134-JSB/Models/Interior/Panel/Instruments/radio_alt/radio_alt.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/radio_alt/radio_alt.xml</path>
     <offsets>
       <x-m>  0.189 </x-m>
       <y-m> -0.363 </y-m>
@@ -89,7 +87,7 @@ Modified by lastmin-II, 07.2015
 
   <!-- ASI -->
   <model>
-    <path>Aircraft/Tu-134-JSB/Models/Interior/Panel/Instruments/kus730-1100/kus730-1100.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/kus730-1100/kus730-1100.xml</path>
     <offsets>
       <x-m>  0.188 </x-m>
       <y-m> -0.850 </y-m>
@@ -99,7 +97,7 @@ Modified by lastmin-II, 07.2015
 
   <!-- Mach -->
   <model>
-    <path>Aircraft/Tu-134-JSB/Models/Interior/Panel/Instruments/um-1/um-cp.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/um-1/um-cp.xml</path>
     <offsets>
       <x-m>  0.188 </x-m>
       <y-m> -0.760 </y-m>
@@ -109,7 +107,7 @@ Modified by lastmin-II, 07.2015
 
   <!-- VOR/ADF -->
   <model>
-    <path>Aircraft/Tu-134-JSB/Models/Interior/Panel/Instruments/iku-1/iku-1_l.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/iku-1/iku-1_l.xml</path>
     <offsets>
       <x-m>  0.189 </x-m>
       <y-m> -0.666 </y-m>
@@ -119,7 +117,7 @@ Modified by lastmin-II, 07.2015
 
   <!-- HSI -->
   <model>
-    <path>Aircraft/Tu-134-JSB/Models/Interior/Panel/Instruments/hsi/hsi.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/hsi/hsi.xml</path>
     <offsets>
       <x-m>  0.190 </x-m>
       <y-m> -0.560 </y-m>
@@ -129,7 +127,7 @@ Modified by lastmin-II, 07.2015
 
   <!-- ALT (m) -->
   <model>
-    <path>Aircraft/Tu-134-JSB/Models/Interior/Panel/Instruments/alt_m/alt_m.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/alt_m/alt_m.xml</path>
     <offsets>
       <x-m>  0.182 </x-m>
       <y-m> -0.450 </y-m>
@@ -139,7 +137,7 @@ Modified by lastmin-II, 07.2015
 
   <!-- VOR 1 -->
   <model>
-    <path>Aircraft/Tu-134-JSB/Models/Interior/Panel/Instruments/ki209a/ki209a-1.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/ki209a/ki209a-1.xml</path>
     <offsets>
       <x-m>  0.189 </x-m>
       <y-m> -0.360 </y-m>
@@ -149,7 +147,7 @@ Modified by lastmin-II, 07.2015
 
   <!-- temperature outside -->
   <model>
-    <path>Aircraft/Tu-134-JSB/Models/Interior/Panel/Instruments/tnv-15/tnv-15.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/tnv-15/tnv-15.xml</path>
     <offsets>
       <x-m>  0.187 </x-m>
       <y-m> -0.600 </y-m>
@@ -159,7 +157,7 @@ Modified by lastmin-II, 07.2015
 
   <!-- dme -->
   <model>
-    <path>Aircraft/Tu-134-JSB/Models/Interior/Panel/Instruments/idr-1/idr-1.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/idr-1/idr-1.xml</path>
     <offsets>
       <x-m>  0.187 </x-m>
       <y-m> -0.530 </y-m>
@@ -169,7 +167,7 @@ Modified by lastmin-II, 07.2015
 
   <!-- ALT (ft) -->
   <model>
-    <path>Aircraft/Tu-134-JSB/Models/Interior/Panel/Instruments/uvo/uvo.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/uvo/uvo.xml</path>
     <offsets>
       <x-m>  0.187 </x-m>
       <y-m> -0.450 </y-m>
@@ -179,7 +177,7 @@ Modified by lastmin-II, 07.2015
 
   <!-- gear -->
   <model>
-    <path>Aircraft/Tu-134-JSB/Models/Interior/Panel/Instruments/gear/gear.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/gear/gear.xml</path>
     <offsets>
       <x-m>  0.187 </x-m>
       <y-m> -0.360 </y-m>
@@ -190,7 +188,7 @@ Modified by lastmin-II, 07.2015
   <!-- central panel -->
   <!-- aoa and g-meter -->
   <model>
-    <path>Aircraft/Tu-134-JSB/Models/Interior/Panel/Instruments/uap-12/uap-12.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/uap-12/uap-12.xml</path>
     <offsets>
       <x-m>  0.189 </x-m>
       <y-m> -0.215 </y-m>
@@ -200,7 +198,7 @@ Modified by lastmin-II, 07.2015
 
   <!-- engine temp -->
   <model>
-    <path>Aircraft/Tu-134-JSB/Models/Interior/Panel/Instruments/ut/ut7a-1.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/ut/ut7a-1.xml</path>
     <offsets>
       <x-m>  0.187 </x-m>
       <y-m> -0.105 </y-m>
@@ -210,7 +208,7 @@ Modified by lastmin-II, 07.2015
 
   <!-- engine rpm -->
   <model>
-    <path>Aircraft/Tu-134-JSB/Models/Interior/Panel/Instruments/ite/ite.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/ite/ite.xml</path>
     <offsets>
       <x-m>  0.189 </x-m>
       <y-m>  0.000 </y-m>
@@ -220,7 +218,7 @@ Modified by lastmin-II, 07.2015
 
   <!-- engine temp -->
   <model>
-    <path>Aircraft/Tu-134-JSB/Models/Interior/Panel/Instruments/ut/ut7a-2.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/ut/ut7a-2.xml</path>
     <offsets>
       <x-m>  0.187 </x-m>
       <y-m>  0.105 </y-m>
@@ -230,7 +228,7 @@ Modified by lastmin-II, 07.2015
 
   <!-- clock -->
   <model>
-    <path>Aircraft/Tu-134-JSB/Models/Interior/Panel/Instruments/achs/achs.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/achs/achs.xml</path>
     <offsets>
       <x-m> 0.186 </x-m>
       <y-m> 0.215 </y-m>
@@ -240,7 +238,7 @@ Modified by lastmin-II, 07.2015
 
   <!-- Landing lights -->
   <model>
-    <path>Aircraft/Tu-134-JSB/Models/Interior/Panel/Instruments/divers/landing-lights.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/divers/landing-lights.xml</path>
     <offsets>
       <x-m>  0.187 </x-m>
       <y-m> -0.235 </y-m>
@@ -250,7 +248,7 @@ Modified by lastmin-II, 07.2015
 
   <!-- Landing lights -->
   <model>
-    <path>Aircraft/Tu-134-JSB/Models/Interior/Panel/Instruments/divers/landing-lights.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/divers/landing-lights.xml</path>
     <offsets>
       <x-m> 0.187 </x-m>
       <y-m> 0.235 </y-m>
@@ -260,7 +258,7 @@ Modified by lastmin-II, 07.2015
 
   <!-- oil temperature -->
   <model>
-    <path>Aircraft/Tu-134-JSB/Models/Interior/Panel/Instruments/uiz/uiz-1.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/uiz/uiz-1.xml</path>
     <offsets>
       <x-m>  0.186 </x-m>
       <y-m> -0.135 </y-m>
@@ -270,7 +268,7 @@ Modified by lastmin-II, 07.2015
 
   <!-- ENGINES WARNING -->
   <model>
-    <path>Aircraft/Tu-134-JSB/Models/Interior/Panel/Instruments/Warnings/engines.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/Warnings/engines.xml</path>
     <offsets>
       <x-m> 0.187 </x-m>
       <y-m> 0.000 </y-m>
@@ -280,7 +278,7 @@ Modified by lastmin-II, 07.2015
 
   <!-- oil temperature -->
   <model>
-    <path>Aircraft/Tu-134-JSB/Models/Interior/Panel/Instruments/uiz/uiz-2.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/uiz/uiz-2.xml</path>
     <offsets>
       <x-m> 0.186 </x-m>
       <y-m> 0.135 </y-m>
@@ -290,7 +288,7 @@ Modified by lastmin-II, 07.2015
 
   <!-- ALT (ft) -->
   <model>
-    <path>Aircraft/Tu-134-JSB/Models/Interior/Panel/Instruments/alt_ft/alt_ft.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/alt_ft/alt_ft.xml</path>
     <offsets>
       <x-m>  0.182 </x-m>
       <y-m> -0.220 </y-m>
@@ -300,7 +298,7 @@ Modified by lastmin-II, 07.2015
 
   <!-- AP WARNING -->
   <model>
-    <path>Aircraft/Tu-134-JSB/Models/Interior/Panel/Instruments/Warnings/ap.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/Warnings/ap.xml</path>
     <offsets>
       <x-m>  0.187 </x-m>
       <y-m> -0.125 </y-m>
@@ -310,7 +308,7 @@ Modified by lastmin-II, 07.2015
 
   <!-- vor/rsbn settings -->
   <model>
-    <path>Aircraft/Tu-134-JSB/Models/Interior/Panel/Instruments/psp/psp.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/psp/psp.xml</path>
     <offsets>
       <x-m>  0.189 </x-m>
       <y-m>  0.000 </y-m>
@@ -320,7 +318,7 @@ Modified by lastmin-II, 07.2015
 
   <!-- fuel meter -->
   <model>
-    <path>Aircraft/Tu-134-JSB/Models/Interior/Panel/Instruments/fuel_meter/fuel_meter_1.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/fuel_meter/fuel_meter_1.xml</path>
     <offsets>
       <x-m>  0.189 </x-m>
       <y-m>  0.120 </y-m>
@@ -330,7 +328,7 @@ Modified by lastmin-II, 07.2015
 
   <!-- fuel meter -->
   <model>
-    <path>Aircraft/Tu-134-JSB/Models/Interior/Panel/Instruments/fuel_meter/fuel_meter_2.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/fuel_meter/fuel_meter_2.xml</path>
     <offsets>
       <x-m>  0.189 </x-m>
       <y-m>  0.220 </y-m>
@@ -340,7 +338,7 @@ Modified by lastmin-II, 07.2015
 
   <!-- AT -->
   <model>
-    <path>Aircraft/Tu-134-JSB/Models/Interior/Panel/Instruments/at/at.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/at/at.xml</path>
     <offsets>
       <x-m>  0.187 </x-m>
       <y-m> -0.142 </y-m>
@@ -350,7 +348,7 @@ Modified by lastmin-II, 07.2015
 
   <!-- COM-1 -->
   <model>
-    <path>Aircraft/Tu-134-JSB/Models/Interior/Panel/Instruments/com/com-1.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/com/com-1.xml</path>
     <offsets>
       <x-m>  0.182 </x-m>
       <y-m>  0.142 </y-m>
@@ -361,7 +359,7 @@ Modified by lastmin-II, 07.2015
   <!-- right panel -->
   <!-- AI -->
   <model>
-    <path>Aircraft/Tu-134-JSB/Models/Interior/Panel/Instruments/ai/ai.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/ai/ai.xml</path>
     <offsets>
       <x-m> 0.190 </x-m>
       <y-m> 0.540 </y-m>
@@ -371,7 +369,7 @@ Modified by lastmin-II, 07.2015
 
   <!-- HSI -->
   <model>
-    <path>Aircraft/Tu-134-JSB/Models/Interior/Panel/Instruments/hsi/hsi.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/hsi/hsi.xml</path>
     <offsets>
       <x-m>  0.190 </x-m>
       <y-m>  0.540 </y-m>
@@ -381,7 +379,7 @@ Modified by lastmin-II, 07.2015
 
   <!-- ALT (m) -->
   <model>
-    <path>Aircraft/Tu-134-JSB/Models/Interior/Panel/Instruments/alt_m/alt_m.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/alt_m/alt_m.xml</path>
     <offsets>
       <x-m>  0.182 </x-m>
       <y-m>  0.650 </y-m>
@@ -391,7 +389,7 @@ Modified by lastmin-II, 07.2015
 
   <!-- ALT (ft) -->
   <model>
-    <path>Aircraft/Tu-134-JSB/Models/Interior/Panel/Instruments/alt_ft/alt_ft.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/alt_ft/alt_ft.xml</path>
     <offsets>
       <x-m>  0.182 </x-m>
       <y-m>  0.740 </y-m>
@@ -401,7 +399,7 @@ Modified by lastmin-II, 07.2015
 
   <!-- VSI -->
   <model>
-    <path>Aircraft/Tu-134-JSB/Models/Interior/Panel/Instruments/vsi/vsi.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/vsi/vsi.xml</path>
     <offsets>
       <x-m> 0.18700 </x-m>
       <y-m> 0.64500 </y-m>
@@ -411,7 +409,7 @@ Modified by lastmin-II, 07.2015
 
   <!-- dme -->
   <model>
-    <path>Aircraft/Tu-134-JSB/Models/Interior/Panel/Instruments/idr-1/idr-1.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/idr-1/idr-1.xml</path>
     <offsets>
       <x-m>  0.187 </x-m>
       <y-m>  0.646 </y-m>
@@ -421,7 +419,7 @@ Modified by lastmin-II, 07.2015
 
   <!-- TURN -->
   <model>
-    <path>Aircraft/Tu-134-JSB/Models/Interior/Panel/Instruments/turn/turn.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/turn/turn.xml</path>
     <offsets>
       <x-m> 0.188 </x-m>
       <y-m> 0.340 </y-m>
@@ -432,7 +430,7 @@ Modified by lastmin-II, 07.2015
   <!-- hydraulic -->
 <!--
   <model>
-    <path>Aircraft/Tu-134-JSB/Models/Interior/Panel/Instruments/controls/controls.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/controls/controls.xml</path>
     <offsets>
       <x-m>  0.188 </x-m>
       <y-m>  0.340 </y-m>
@@ -442,7 +440,7 @@ Modified by lastmin-II, 07.2015
 -->
   <!-- ASI -->
   <model>
-    <path>Aircraft/Tu-134-JSB/Models/Interior/Panel/Instruments/asi/asi.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/asi/asi.xml</path>
     <offsets>
       <x-m> 0.187 </x-m>
       <y-m> 0.434 </y-m>
@@ -452,7 +450,7 @@ Modified by lastmin-II, 07.2015
 
   <!-- Radio ALT -->
   <model>
-    <path>Aircraft/Tu-134-JSB/Models/Interior/Panel/Instruments/radio_alt/radio_alt.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/radio_alt/radio_alt.xml</path>
     <offsets>
       <x-m>  0.189 </x-m>
       <y-m>  0.737 </y-m>
@@ -462,7 +460,7 @@ Modified by lastmin-II, 07.2015
 
   <!-- Compass -->
   <model>
-    <path>Aircraft/Tu-134-JSB/Models/Interior/Panel/Instruments/compass/compass.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/compass/compass.xml</path>
     <offsets>
       <x-m> -0.010 </x-m>
       <y-m>  0.000 </y-m>
