@@ -237,15 +237,15 @@
     </offsets>
   </model>
 
-  <!-- Interieur -->
+  <!-- Interior -->
   <model>
-    <name>Interieur</name>
+    <name>Interior</name>
     <path>Aircraft/Tu-134-JSB/Models/Interior/interior.xml</path>
   </model>
 
   <animation>
     <type>noshadow</type>
-    <object-name>Interieur</object-name>
+    <object-name>Interior</object-name>
   </animation>
 
   <!-- Effets sur le sol -->

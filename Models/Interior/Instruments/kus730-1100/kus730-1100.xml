@@ -4,30 +4,6 @@
 <path>kus730-1100.ac</path>
 
 <animation>
-	<type>material</type>
-	<object-name>Plane.005</object-name>
-	<object-name>Plane.007</object-name>
-	<object-name>Plane.008</object-name>
-	<emission>
-		<red>0.9</red>
-		<green>0.25</green>
-		<blue>0.2</blue>
-		<factor-prop>/controls/switches/map-lights</factor-prop>
-	</emission>
-</animation>
-
-<animation>
-	<type>material</type>
-	<object-name>Plane.004</object-name>
-	<emission>
-		<red>0.2</red>
-		<green>0.2</green>
-		<blue>0.2</blue>
-		<factor-prop>/controls/switches/map-lights</factor-prop>
-	</emission>
-</animation>
-
-<animation>
     <type>rotate</type>
     <object-name>ind_needle</object-name>
     <property>instrumentation/airspeed-indicator/indicated-speed-kt</property>

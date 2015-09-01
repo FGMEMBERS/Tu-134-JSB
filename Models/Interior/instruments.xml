@@ -1,18 +1,23 @@
-<?xml version="1.0" encoding="ISO-8859-1"?> 
+<?xml version="1.0" encoding="UTF-8"?> 
 
 <!--
 
 Modified by lastmin-II, 07.2015
+Modified by xcvb, 08.2015
 
 -->
 
 <PropertyList>
 
-  <animation>
-    <object-name>panel1</object-name>
-    <object-name>panel2</object-name>
-    <object-name>panel3</object-name>
-  </animation>
+  <!-- Compass --><!-- TODO: autopilot -->
+  <model>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/compass/compass.xml</path>
+    <offsets>
+      <x-m> -0.010 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m>  0.340 </z-m>
+    </offsets>
+  </model>
 
   <!-- left panel -->
   <!-- ABSU WARNINGS -->
@@ -155,7 +160,7 @@ Modified by lastmin-II, 07.2015
     </offsets>
   </model>
 
-  <!-- dme -->
+  <!-- DME -->
   <model>
     <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/idr-1/idr-1.xml</path>
     <offsets>
@@ -175,7 +180,7 @@ Modified by lastmin-II, 07.2015
     </offsets>
   </model>
 
-  <!-- gear -->
+  <!-- Gear -->
   <model>
     <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/gear/gear.xml</path>
     <offsets>
@@ -357,13 +362,83 @@ Modified by lastmin-II, 07.2015
   </model>
 
   <!-- right panel -->
+  <!-- TURN -->
+  <model>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/turn/turn.xml</path>
+    <offsets>
+      <x-m> 0.188 </x-m>
+      <y-m> 0.360 </y-m>
+      <z-m> 0.250 </z-m>
+    </offsets>
+  </model>
+
+  <!-- ASI -->
+  <model>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/kus730-1100/kus730-1100.xml</path>
+    <offsets>
+      <x-m> 0.188 </x-m>
+      <y-m> 0.355 </y-m>
+      <z-m> 0.160 </z-m>
+    </offsets>
+  </model>
+
+  <!-- Mach -->
+  <model>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/um-1/um-cp.xml</path>
+    <offsets>
+      <x-m> 0.188 </x-m>
+      <y-m> 0.355 </y-m>
+      <z-m> 0.070 </z-m>
+    </offsets>
+  </model>
+
+  <!-- ASI -->
+  <model>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/asi/asi.xml</path>
+    <offsets>
+      <x-m> 0.187 </x-m>
+      <y-m> 0.440 </y-m>
+      <z-m> 0.080 </z-m>
+    </offsets>
+  </model>
+
   <!-- AI -->
   <model>
     <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/ai/ai.xml</path>
     <offsets>
       <x-m> 0.190 </x-m>
-      <y-m> 0.540 </y-m>
-      <z-m> 0.147 </z-m>
+      <y-m> 0.550 </y-m>
+      <z-m> 0.110 </z-m>
+    </offsets>
+  </model>
+
+  <!-- VSI -->
+  <model>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/vsi/vsi.xml</path>
+    <offsets>
+      <x-m> 0.187 </x-m>
+      <y-m> 0.665 </y-m>
+      <z-m> 0.080 </z-m>
+    </offsets>
+  </model>
+
+  <!-- Cabin pressure -->
+  <model>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/uvpd/uvpd.xml</path>
+    <offsets>
+      <x-m> 0.188 </x-m>
+      <y-m> 0.355 </y-m>
+      <z-m>-0.020 </z-m>
+    </offsets>
+  </model>
+
+  <!-- VOR/ADF -->
+  <model>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/iku-1/iku-1_r.xml</path>
+    <offsets>
+      <x-m> 0.188 </x-m>
+      <y-m> 0.440 </y-m>
+      <z-m>-0.020 </z-m>
     </offsets>
   </model>
 
@@ -372,8 +447,8 @@ Modified by lastmin-II, 07.2015
     <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/hsi/hsi.xml</path>
     <offsets>
       <x-m>  0.190 </x-m>
-      <y-m>  0.540 </y-m>
-      <z-m>  0.015 </z-m>
+      <y-m>  0.550 </y-m>
+      <z-m> -0.015 </z-m>
     </offsets>
   </model>
 
@@ -382,69 +457,8 @@ Modified by lastmin-II, 07.2015
     <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/alt_m/alt_m.xml</path>
     <offsets>
       <x-m>  0.182 </x-m>
-      <y-m>  0.650 </y-m>
-      <z-m>  0.014 </z-m>
-    </offsets>
-  </model>
-
-  <!-- ALT (ft) -->
-  <model>
-    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/alt_ft/alt_ft.xml</path>
-    <offsets>
-      <x-m>  0.182 </x-m>
-      <y-m>  0.740 </y-m>
-      <z-m>  0.008 </z-m>
-    </offsets>
-  </model>
-
-  <!-- VSI -->
-  <model>
-    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/vsi/vsi.xml</path>
-    <offsets>
-      <x-m> 0.18700 </x-m>
-      <y-m> 0.64500 </y-m>
-      <z-m> 0.11000 </z-m>
-    </offsets>
-  </model>
-
-  <!-- dme -->
-  <model>
-    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/idr-1/idr-1.xml</path>
-    <offsets>
-      <x-m>  0.187 </x-m>
-      <y-m>  0.646 </y-m>
-      <z-m> -0.110 </z-m>
-    </offsets>
-  </model>
-
-  <!-- TURN -->
-  <model>
-    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/turn/turn.xml</path>
-    <offsets>
-      <x-m> 0.188 </x-m>
-      <y-m> 0.340 </y-m>
-      <z-m> 0.180 </z-m>
-    </offsets>
-  </model>
-
-  <!-- hydraulic -->
-<!--
-  <model>
-    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/controls/controls.xml</path>
-    <offsets>
-      <x-m>  0.188 </x-m>
-      <y-m>  0.340 </y-m>
-      <z-m>  0.270 </z-m>
-    </offsets>
-  </model>
--->
-  <!-- ASI -->
-  <model>
-    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/asi/asi.xml</path>
-    <offsets>
-      <x-m> 0.187 </x-m>
-      <y-m> 0.434 </y-m>
-      <z-m> 0.110 </z-m>
+      <y-m>  0.665 </y-m>
+      <z-m> -0.010 </z-m>
     </offsets>
   </model>
 
@@ -453,19 +467,28 @@ Modified by lastmin-II, 07.2015
     <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/radio_alt/radio_alt.xml</path>
     <offsets>
       <x-m>  0.189 </x-m>
-      <y-m>  0.737 </y-m>
-      <z-m>  0.100 </z-m>
+      <y-m>  0.750 </y-m>
+      <z-m>  0.020 </z-m>
     </offsets>
   </model>
 
-  <!-- Compass -->
+  <!-- DME -->
   <model>
-    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/compass/compass.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/idr-1/idr-1.xml</path>
     <offsets>
-      <x-m> -0.010 </x-m>
-      <y-m>  0.000 </y-m>
-      <z-m>  0.340 </z-m>
+      <x-m>  0.187 </x-m>
+      <y-m>  0.830 </y-m>
+      <z-m> -0.020 </z-m>
     </offsets>
   </model>
 
+  <!-- VSI -->
+  <model>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/vsi/vsi.xml</path>
+    <offsets>
+      <x-m> 0.187 </x-m>
+      <y-m> 0.870 </y-m>
+      <z-m>-0.100 </z-m>
+    </offsets>
+  </model>
 </PropertyList>
