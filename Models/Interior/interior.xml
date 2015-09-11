@@ -141,16 +141,6 @@
   </axis>
 </animation>
 
-  <!-- OverHead -->
-  <model>
-    <path>Aircraft/Tu-134-JSB/Models/Interior/Overhead/overhead.xml</path>
-    <offsets>
-      <x-m> -15.40492 </x-m>
-      <y-m>   0.00000 </y-m>
-      <z-m>  -0.12425 </z-m>
-    </offsets>
-  </model>
-
   <!-- Porte -->
   <animation>
     <name>IntLaPorte</name>

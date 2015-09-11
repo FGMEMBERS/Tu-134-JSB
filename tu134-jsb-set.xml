@@ -3,8 +3,13 @@
 <PropertyList>
   <sim include="Systems/tu134-jsb-views.xml">
     <description>Tu-134A</description>
-    <author></author>
-    <status>0.01</status>
+    <author>new version: lastmin-II, xcvb; original Tu-134: Emmanuel BARANGER and Artem Kovalchuk; some stuff from other models: Yurik V. Nikiforoff, specter</author>
+    <rating>
+      <FDM type="int">     4 </FDM>
+      <systems type="int"> 0 </systems>
+      <cockpit type="int"> 3 </cockpit>
+      <model type="int">   5 </model>
+    </rating>
 
     <flight-model>jsb</flight-model>
     <aero>tu134-jsb</aero>
