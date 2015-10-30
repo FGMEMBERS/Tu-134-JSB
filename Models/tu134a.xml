@@ -2,7 +2,7 @@
 
 <PropertyList>
 
-  <path>tu134-jsb.ac</path>
+  <path>tu134a.ac</path>
 
   <nasal>
     <load>
@@ -240,7 +240,7 @@
   <!-- Interior -->
   <model>
     <name>Interior</name>
-    <path>Aircraft/Tu-134-JSB/Models/Interior/interior.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/tu134a-interior.xml</path>
   </model>
 
   <animation>
@@ -1380,9 +1380,9 @@
     <property>/gear/gear[0]/rollspeed-ms</property>
     <factor> 30 </factor>
     <center>
-      <x-m> -14.426 </x-m>
+      <x-m> -14.406 </x-m>
       <y-m>   0.000 </y-m>
-      <z-m>  -4.062 </z-m>
+      <z-m>  -4.061 </z-m>
     </center>
     <axis>
       <x>  0 </x>
@@ -1397,7 +1397,7 @@
     <property>/gear/gear[1]/rollspeed-ms</property>
     <factor> 30 </factor>
     <center>
-      <x-m>  0.358 </x-m>
+      <x-m>  0.379 </x-m>
       <y-m> -4.776 </y-m>
       <z-m> -3.895 </z-m>
     </center>
@@ -1414,7 +1414,7 @@
     <property>/gear/gear[1]/rollspeed-ms</property>
     <factor> 30 </factor>
     <center>
-      <x-m>  1.568 </x-m>
+      <x-m>  1.588 </x-m>
       <y-m> -4.776 </y-m>
       <z-m> -3.895 </z-m>
     </center>
@@ -1431,7 +1431,7 @@
     <property>/gear/gear[2]/rollspeed-ms</property>
     <factor> 30 </factor>
     <center>
-      <x-m>  0.358 </x-m>
+      <x-m>  0.379 </x-m>
       <y-m>  4.776 </y-m>
       <z-m> -3.895 </z-m>
     </center>
@@ -1448,7 +1448,7 @@
     <property>/gear/gear[2]/rollspeed-ms</property>
     <factor> 30 </factor>
     <center>
-      <x-m>  1.568 </x-m>
+      <x-m>  1.588 </x-m>
       <y-m>  4.776 </y-m>
       <z-m> -3.895 </z-m>
     </center>

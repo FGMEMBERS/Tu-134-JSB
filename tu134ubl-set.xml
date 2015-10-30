@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 
 <PropertyList>
-  <sim include="Systems/tu134-jsb-views.xml">
-    <description>Tu-134A</description>
+  <sim include="Systems/tu134ubl-views.xml">
+    <description>Tu-134UBL</description>
     <author>new version: lastmin-II, xcvb; original Tu-134: Emmanuel BARANGER and Artem Kovalchuk; some stuff from other models: Yurik V. Nikiforoff, specter</author>
     <rating>
       <FDM type="int">     4 </FDM>
@@ -12,18 +12,18 @@
     </rating>
 
     <flight-model>jsb</flight-model>
-    <aero>tu134-jsb</aero>
+    <aero>tu134ubl</aero>
 
     <startup>
-      <splash-texture>Aircraft/Tu-134-JSB/tu134-jsb-splash.png</splash-texture>
+      <splash-texture>Aircraft/Tu-134-JSB/tu134ubl-splash.png</splash-texture>
     </startup>
 
     <sound>
-      <path>Aircraft/Tu-134-JSB/Sounds/tu134-jsb-sound.xml</path>
+      <path>Aircraft/Tu-134-JSB/Sounds/tu134-sound.xml</path>
     </sound>
 
     <model>
-      <path>Aircraft/Tu-134-JSB/Models/tu134-jsb.xml</path>
+      <path>Aircraft/Tu-134-JSB/Models/tu134ubl.xml</path>
       <livery>
         <file type="string">default</file>
       </livery>
@@ -45,7 +45,7 @@
     </flaps>
     
     <systems>
-      <path>Aircraft/Tu-134-JSB/Systems/tu134-jsb-systems.xml</path>
+      <path>Aircraft/Tu-134-JSB/Systems/tu134a-systems.xml</path>
     </systems>
     
     <instrumentation>
@@ -76,11 +76,11 @@
     </multiplay>
 
     <help include="Systems/help.xml"/>
-    <menubar include="Dialogs/tu134-jsb-menu.xml"/>
+    <menubar include="Dialogs/tu134a-menu.xml"/>
   </sim>
 
   <input>
-    <keyboard include="Systems/tu134-jsb-keyboard.xml"/>
+    <keyboard include="Systems/tu134a-keyboard.xml"/>
   </input>
 
   <controls>
