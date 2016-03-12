@@ -5,12 +5,13 @@
    xsi:noNamespaceSchemaLocation="http://jsbsim.sourceforge.net/JSBSim.xsd">
 
  <fileheader>
-  <author>xcvb + specter</author>
+  <author>xcvb</author>
+  <author>specter (some table data from first non working version)</author>
+  <author>yurik_nsk (many ideas from Tu-154)</author>
   <filecreationdate>2015-06-22</filecreationdate>
   <version>1.0</version>
   <description>Tu-134a airliner</description>
   <reference title="Лигум Т.И. - Аэродинамика самолeта Ту-134А-3 (Б-3)"/>
-  <reference title="Бороденко В.А., Коломиец Л.В. - Самолет ТУ-134"/>
  </fileheader>
 
  <metrics>
@@ -40,12 +41,15 @@
     </metrics>
 
   <mass_balance>
-    <ixx unit="KG*M2">    574160 </ixx>
-    <iyy unit="KG*M2">   3502724 </iyy>
-    <izz unit="KG*M2">   3848147 </izz>
+    <ixx unit="KG*M2">    574000 </ixx>
+    <iyy unit="KG*M2">   3500000 </iyy>
+    <izz unit="KG*M2">   3840000 </izz>
+    <ixy unit="KG*M2">         0 </ixy>
+    <ixz unit="KG*M2">    200000 </ixz>
+    <iyz unit="KG*M2">         0 </iyz>
     <emptywt unit="KG" >   28000 </emptywt>
     <location name="CG" unit="M">
-      <x>19.5</x>
+      <x>20</x>
       <y>0</y>
       <z>0.5</z>
     </location>
@@ -133,7 +137,7 @@
             <location unit="M">
                 <x>  25.7 </x>
                 <y> -14.5 </y>
-                <z>  -0.5 </z>
+                <z>  -0.9 </z>
             </location>
             <static_friction> 0.8 </static_friction>
             <dynamic_friction> 0.5 </dynamic_friction>
@@ -148,7 +152,7 @@
             <location unit="M">
                 <x> 25.7 </x>
                 <y> 14.5 </y>
-                <z> -0.5 </z>
+                <z> -0.9 </z>
             </location>
             <static_friction> 0.8 </static_friction>
             <dynamic_friction> 0.5 </dynamic_friction>
@@ -163,7 +167,7 @@
             <location unit="M">
                 <x> 32.0 </x>
                 <y>  0.0 </y>
-                <z>  1.0 </z>
+                <z>  -1.5 </z>
             </location>
             <static_friction> 0.8 </static_friction>
             <dynamic_friction> 0.5 </dynamic_friction>
@@ -335,8 +339,8 @@
    <aerosurface_scale name="Elevator Control">
       <input>fcs/pitch-trim-sum</input>
       <range>
-        <min> -0.35 </min>
-        <max>  0.35 </max>
+         <min>-0.506</min>
+         <max>0.28</max>
       </range>
       <output>fcs/elevator-pos-rad</output>
    </aerosurface_scale>
@@ -344,8 +348,8 @@
    <aerosurface_scale name="elevator normalization">
       <input>fcs/elevator-pos-rad</input>
       <domain>
-        <min> -0.35 </min>
-        <max>  0.35 </max>
+        <min> -1 </min>
+        <max>  1 </max>
       </domain>
       <range>
         <min> -1 </min>
@@ -571,15 +575,15 @@
                 <independentVar lookup="row">aero/alpha-wing-rad</independentVar>
                 <independentVar lookup="column">aero/function/cmf</independentVar>
                 <tableData>
-                        -0.82  -0.75  -0.60  -0.20   20     30     38
-                -0.070  -0.50  -0.60  -0.80  -0.60   0.00   0.10   0.20
-                 0.000  -0.05  -0.05  -0.15  -0.15   0.40   0.55   0.65
-                 0.087   0.45   0.50   0.45   0.35   0.80   1.00   1.15
-                 0.175   0.75   0.90   0.95   0.80   1.20   1.40   1.55
-                 0.209   0.80   1.00   1.05   0.95   1.35   1.55   1.70
-                 0.314   0.70   1.10   1.20   1.45   1.70   1.90   2.05
-                 0.349   0.50   1.00   1.20   1.45   1.65   1.85   2.00
-                 0.401   0.00   0.50   1.00   1.25   1.40   1.60   1.75
+                        -0.82  -0.80  -0.75  -0.70  -0.60   0      20     30     38
+                -0.070  -0.50  -0.55  -0.60  -0.70  -0.80  -0.40   0.00   0.10   0.20
+                 0.000  -0.05  -0.05  -0.05  -0.10  -0.15  -0.07   0.37   0.55   0.67 
+                 0.087   0.46   0.47   0.48   0.46   0.45   0.39   0.81   1.01   1.13
+                 0.175   0.75   0.76   0.82   0.89   0.93   0.84   1.24   1.43   1.55
+                 0.209   0.79   0.82   0.87   0.96   1.05   1.00   1.35   1.55   1.70
+                 0.262   0.81   0.88   0.94   1.03   1.13   1.23   1.62   1.81   1.93
+                 0.279   0.82   0.90   0.96   1.05   1.15   1.30   1.70   1.88   2.00
+                 0.297   0.83   0.92   0.99   1.08   1.16   1.35   1.73   1.90   2.05
                 </tableData>
             </table>
         </function>
@@ -832,14 +836,13 @@
     <function name="aero/moment/Pitch_alpha">
        <description>Pitch moment due to alpha</description>
        <product>
-           <property>aero/qbar-psf</property>
-           <property>metrics/Sw-sqft</property>
-           <property>metrics/cbarw-ft</property>
-           <property>aero/alpha-rad</property>
-           <table name="Mz-alpha">
-               <independentVar lookup="row">aero/alpha-wing-rad</independentVar>
-               <independentVar lookup="column">fcs/flap-pos-deg</independentVar>
-               <tableData>
+          <property>aero/qbar-psf</property>
+          <property>metrics/Sw-sqft</property>
+          <property>metrics/cbarw-ft</property>
+          <table name="Mz-alpha">
+             <independentVar lookup="row">aero/alpha-wing-rad</independentVar>
+             <independentVar lookup="column">fcs/flap-pos-deg</independentVar>
+             <tableData>
                             0       20      38
                    -0.07    0.6     0.55    0.5
                     0       0.3     0.25    0.19
@@ -849,8 +852,8 @@
                     0.31   -0.51   -0.44   -0.4
                     0.35   -0.5    -0.38   -0.41
                     0.38   -0.08   -0.08   -0.18
-               </tableData>
-           </table>
+             </tableData>
+          </table>
        </product>
     </function>
     <function name="aero/moment/Pitch_elevator">
@@ -877,7 +880,7 @@
            <property>metrics/cbarw-ft</property>
            <property>aero/ci2vel</property>
            <property>velocities/q-aero-rad_sec</property>
-           <value>-22</value>
+           <value>-17</value>
        </product>
     </function>
     <function name="aero/moment/Pitch_alphadot">
@@ -888,7 +891,7 @@
            <property>metrics/cbarw-ft</property>
            <property>aero/ci2vel</property>
            <property>aero/alphadot-rad_sec</property>
-           <value>-9</value>
+           <value>-4</value>
        </product>
     </function>
   </axis>
