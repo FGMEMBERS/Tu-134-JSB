@@ -145,7 +145,6 @@
   <animation>
     <name>IntLaPorte</name>
     <object-name>intdoor</object-name>
-    <object-name>spacersdoor</object-name>
     <object-name>intdoorwindow</object-name>
   </animation>
 
