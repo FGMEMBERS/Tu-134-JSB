@@ -36,12 +36,12 @@
     </model>
 
     <flaps>
-      <setting>0.0</setting> <!--  0 deg -->
-      <setting>0.2</setting> <!-- 10 deg -->
-      <setting>0.4</setting> <!-- 15 deg -->
-      <setting>0.6</setting> <!-- 20 deg -->
-      <setting>0.8</setting> <!-- 25 deg -->
-      <setting>1.0</setting> <!-- 30 deg -->
+      <setting>0.00</setting> <!--  0 deg -->
+      <setting>0.33</setting> <!-- 10 deg -->
+      <setting>0.50</setting> <!-- 15 deg -->
+      <setting>0.67</setting> <!-- 20 deg -->
+      <setting>0.83</setting> <!-- 25 deg -->
+      <setting>1.00</setting> <!-- 30 deg -->
     </flaps>
     
     <systems>

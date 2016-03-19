@@ -1410,34 +1410,17 @@
     <property>sim/model/door-positions/crew/position-norm</property>
     <interpolation>
       <entry><ind> 0.0 </ind><dep>  0 </dep></entry>
-      <entry><ind> 0.2 </ind><dep>  0 </dep></entry>
-      <entry><ind> 1.0 </ind><dep> 65 </dep></entry>
+      <entry><ind> 1.0 </ind><dep> 90 </dep></entry>
     </interpolation>
     <center>
-      <x-m> -13.055 </x-m>
-      <y-m>   0.000 </y-m>
-      <z-m>  -1.188 </z-m>
+      <x-m> -10.80 </x-m>
+      <y-m>  -1.20 </y-m>
+      <z-m>   0.00 </z-m>
     </center>
     <axis>
-      <x> -1 </x>
+      <x>  0 </x>
       <y>  0 </y>
-      <z>  0 </z>
-    </axis>
-  </animation>
-
-  <animation>
-    <type>translate</type>
-    <object-name>LaPorte</object-name>
-    <property>sim/model/door-positions/crew/position-norm</property>
-    <interpolation>
-      <entry><ind> 0.0 </ind><dep> 0.00 </dep></entry>
-      <entry><ind> 0.2 </ind><dep> 0.08 </dep></entry>
-      <entry><ind> 1.0 </ind><dep> 0.08 </dep></entry>
-    </interpolation>
-    <axis>
-      <x> 0 </x>
-      <y> 1 </y>
-      <z> 0 </z>
+      <z>  1 </z>
     </axis>
   </animation>
 
