@@ -7,7 +7,7 @@
     <model>
       <livery>
         <name type="string">UTair</name>
-        <texture>Liveries/2048x2048/utair.png</texture>
+        <texture>Liveries/utair.png</texture>
         <emission>
           <red>   0.02 </red>
           <green> 0.02 </green>

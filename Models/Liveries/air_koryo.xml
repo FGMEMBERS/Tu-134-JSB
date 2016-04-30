@@ -7,7 +7,7 @@
     <model>
       <livery>
         <name type="string">Air Koryo</name>
-        <texture>Liveries/2048x2048/airkoryo.png</texture>
+        <texture>Liveries/airkoryo.png</texture>
         <emission>
           <red>   0.02 </red>
           <green> 0.02 </green>

@@ -7,7 +7,7 @@
     <model>
       <livery>
         <name type="string">Interflug</name>
-        <texture>Liveries/2048x2048/interflug.png</texture>
+        <texture>Liveries/interflug.png</texture>
         <emission>
           <red>   0.02 </red>
           <green> 0.02 </green>

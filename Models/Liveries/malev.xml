@@ -7,7 +7,7 @@
     <model>
       <livery>
         <name type="string">Malev</name>
-        <texture>Liveries/2048x2048/malev.png</texture>
+        <texture>Liveries/malev.png</texture>
         <emission>
           <red>   0.02 </red>
           <green> 0.02 </green>

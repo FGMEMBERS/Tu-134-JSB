@@ -1,14 +1,13 @@
-<?xml version="1.0" encoding="ISO-8859-1"?> 
+<?xml version="1.0" encoding="UTF-8"?> 
 
 <PropertyList>
-
   <fx>
 
     <!-- Engine 1 -->
     <engine>
       <name>start-inside0</name>
       <mode>once</mode>
-      <path>Aircraft/Tu-134-JSB/Sounds/start-in.wav</path>
+      <path>Aircraft/Tu-134-JSB/Sounds/engine/start-in.wav</path>
       <condition>
         <and>
           <property>/controls/engines/engine[0]/starter</property>
@@ -34,7 +33,7 @@
     <engine>
       <name>start-outside0</name>
       <mode>once</mode>
-      <path>Aircraft/Tu-134-JSB/Sounds/start-out.wav</path>
+      <path>Aircraft/Tu-134-JSB/Sounds/engine/start-out.wav</path>
       <condition>
         <and>
           <property>/controls/engines/engine[0]/starter</property>
@@ -62,7 +61,7 @@
     <engine>
       <name>turbine-inside0</name>
       <mode>looped</mode>
-      <path>Aircraft/Tu-134-JSB/Sounds/engine-in.wav</path>
+      <path>Aircraft/Tu-134-JSB/Sounds/engine/engine-in.wav</path>
       <condition>
         <and>
           <property>/engines/engine[0]/running</property>
@@ -88,7 +87,7 @@
     <engine>
       <name>turbine-outside0</name>
       <mode>looped</mode>
-      <path>Aircraft/Tu-134-JSB/Sounds/engine-out.wav</path>
+      <path>Aircraft/Tu-134-JSB/Sounds/engine/engine-out.wav</path>
       <condition>
         <property>/engines/engine[0]/running</property>
         <not>
@@ -114,7 +113,7 @@
     <engine>
       <name>shutdown-inside0</name>
       <mode>once</mode>
-      <path>Aircraft/Tu-134-JSB/Sounds/shutdown-in.wav</path>
+      <path>Aircraft/Tu-134-JSB/Sounds/engine/shutdown-in.wav</path>
       <condition>
         <and>
           <property>/controls/engines/engine[0]/cutoff</property> 
@@ -134,7 +133,7 @@
     <engine>
       <name>shutdown-outside0</name>
       <mode>once</mode>
-      <path>Aircraft/Tu-134-JSB/Sounds/shutdown-out.wav</path>
+      <path>Aircraft/Tu-134-JSB/Sounds/engine/shutdown-out.wav</path>
       <condition>
         <and>
           <property>/controls/engines/engine[0]/cutoff</property> 
@@ -155,7 +154,7 @@
 
     <engine>
       <name>whine0</name>
-      <path>Aircraft/Tu-134-JSB/Sounds/whine.wav</path>
+      <path>Aircraft/Tu-134-JSB/Sounds/engine/whine.wav</path>
       <mode>looped</mode>
       <condition>
         <property>/engines/engine[0]/running</property>
@@ -178,7 +177,7 @@
     <engine>
       <name>start-inside1</name>
       <mode>once</mode>
-      <path>Aircraft/Tu-134-JSB/Sounds/start-in.wav</path>
+      <path>Aircraft/Tu-134-JSB/Sounds/engine/start-in.wav</path>
       <condition>
         <and>
           <property>/controls/engines/engine[1]/starter</property>
@@ -204,7 +203,7 @@
     <engine>
       <name>start-outside1</name>
       <mode>once</mode>
-      <path>Aircraft/Tu-134-JSB/Sounds/start-out.wav</path>
+      <path>Aircraft/Tu-134-JSB/Sounds/engine/start-out.wav</path>
       <condition>
         <and>
           <property>/controls/engines/engine[1]/starter</property>
@@ -232,7 +231,7 @@
     <engine>
       <name>turbine-inside1</name>
       <mode>looped</mode>
-      <path>Aircraft/Tu-134-JSB/Sounds/engine-in.wav</path>
+      <path>Aircraft/Tu-134-JSB/Sounds/engine/engine-in.wav</path>
       <condition>
         <and>
           <property>/engines/engine[1]/running</property>
@@ -258,7 +257,7 @@
     <engine>
       <name>turbine-outside1</name>
       <mode>looped</mode>
-      <path>Aircraft/Tu-134-JSB/Sounds/engine-out.wav</path>
+      <path>Aircraft/Tu-134-JSB/Sounds/engine/engine-out.wav</path>
       <condition>
         <property>/engines/engine[1]/running</property>
         <not>
@@ -284,7 +283,7 @@
     <engine>
       <name>shutdown-inside1</name>
       <mode>once</mode>
-      <path>Aircraft/Tu-134-JSB/Sounds/shutdown-in.wav</path>
+      <path>Aircraft/Tu-134-JSB/Sounds/engine/shutdown-in.wav</path>
       <condition>
         <and>
           <property>/controls/engines/engine[1]/cutoff</property> 
@@ -304,7 +303,7 @@
     <engine>
       <name>shutdown-outside1</name>
       <mode>once</mode>
-      <path>Aircraft/Tu-134-JSB/Sounds/shutdown-out.wav</path>
+      <path>Aircraft/Tu-134-JSB/Sounds/engine/shutdown-out.wav</path>
       <condition>
         <and>
           <property>/controls/engines/engine[1]/cutoff</property> 
@@ -325,7 +324,7 @@
 
     <engine>
       <name>whine1</name>
-      <path>Aircraft/Tu-134-JSB/Sounds/whine.wav</path>
+      <path>Aircraft/Tu-134-JSB/Sounds/engine/whine.wav</path>
       <mode>looped</mode>
       <condition>
         <property>/engines/engine[1]/running</property>
@@ -344,10 +343,87 @@
       <max-dist>1000</max-dist>
     </engine>
 
-    <!-- -->
+<!--************************************ EFFECTS **************************************-->
+<gear>
+  <name>gear up</name>
+  <path>Aircraft/Tu-134-JSB/Sounds/misc/154_gearup_l.wav</path>
+  <condition>
+    <less-than>
+      <property>gear/gear[1]/position-norm</property>
+      <value>0.9</value>
+    </less-than>
+  </condition>
+  <mode>once</mode>
+  <position>
+    <x>2</x>
+    <y>0</y>
+    <z>-2.5</z>
+  </position>
+</gear> 
+
+<gear>
+  <name>gear down</name>
+  <path>Aircraft/Tu-134-JSB/Sounds/misc/154_geardown_l.wav</path>
+  <condition>
+    <greater-than>
+      <property>gear/gear[1]/position-norm</property>
+      <value>0.1</value>
+    </greater-than>
+  </condition>
+  <mode>once</mode>
+  <position>
+    <x>2</x>
+    <y>0</y>
+    <z>-2.5</z>
+  </position>
+</gear> 
+
+<gear>
+  <name>wow nose</name>
+  <path>Aircraft/Tu-134-JSB/Sounds/misc/nos_154.wav</path>
+  <condition>
+    <property>gear/gear[0]/wow</property>
+    <property>gear/gear[0]/position-norm</property>
+  </condition>
+  <mode>once</mode>
+  <position>
+    <x>0.0</x>
+    <y>0.0</y>
+    <z>-2.5</z>
+  </position>
+</gear> 
+<gear>
+  <name>wow left</name>
+  <path>Aircraft/Tu-134-JSB/Sounds/misc/osn_154.wav</path>
+  <condition>
+    <property>gear/gear[1]/wow</property>
+    <property>gear/gear[1]/position-norm</property>
+  </condition>
+  <mode>once</mode>
+  <position>
+    <x>0.0</x>
+    <y>5.75</y>
+    <z>-2.5</z>
+  </position>
+</gear> 
+<gear>
+  <name>wow right</name>
+  <path>Aircraft/Tu-134-JSB/Sounds/misc/osn_154.wav</path>
+  <condition>
+   <property>gear/gear[2]/wow</property>
+   <property>gear/gear[2]/position-norm</property>
+ </condition>
+  <mode>once</mode>
+  <position>
+    <x>0.0</x>
+    <y>-5.75</y>
+    <z>-2.5</z>
+  </position>
+</gear> 
+
 <gear>
   <name>roll sound</name>
-  <path>Aircraft/Tu-134-JSB/Sounds/drb_154.wav</path>
+  <path>Aircraft/Tu-134-JSB/Sounds/misc/drb_154.wav</path>
   <condition>
     <or>
      <property>gear/gear[0]/wow</property>
@@ -372,7 +448,7 @@
 
 <gear>
   <name>bump sound nose</name>
-  <path>Aircraft/Tu-134-JSB/Sounds/drb_154.wav</path>
+  <path>Aircraft/Tu-134-JSB/Sounds/misc/drb_154.wav</path>
   <condition>
     <property>gear/gear[0]/wow</property>
     <property>sim/current-view/internal</property>
@@ -397,7 +473,7 @@
 </gear>
 <gear>
   <name>bump sound left</name>
-  <path>Aircraft/Tu-134-JSB/Sounds/drb_154.wav</path>
+  <path>Aircraft/Tu-134-JSB/Sounds/misc/drb_154.wav</path>
   <condition>
     <property>gear/gear[1]/wow</property>
     <property>sim/current-view/internal</property>
@@ -422,7 +498,7 @@
 </gear>
 <gear>
   <name>bump sound right</name>
-  <path>Aircraft/Tu-134-JSB/Sounds/drb_154.wav</path>
+  <path>Aircraft/Tu-134-JSB/Sounds/misc/drb_154.wav</path>
   <condition>
     <property>gear/gear[2]/wow</property>
     <property>sim/current-view/internal</property>
@@ -445,186 +521,6 @@
     <offset>0.0</offset>
   </volume>
 </gear>
-
-    <gear>
-      <name>gear</name>
-      <mode>in-transit</mode>
-      <path>Aircraft/Tu-134-JSB/Sounds/gear.wav</path>
-      <property>/gear/gear[0]/position-norm</property>
-      <pitch>
-        <internal>dt_play</internal>
-        <offset>1.0</offset>
-        <factor>-0.001</factor>
-      </pitch>
-    </gear>
-
-    <gear>
-      <name>gear-lock</name>
-      <path>Sounds/gear-lck.wav</path>
-      <condition>
-        <equals>
-          <property>/gear/gear[0]/position-norm</property>
-          <value>0</value>
-        </equals>
-      </condition>
-    </gear>
-
-    <gear>
-      <name>gear-lock</name>
-      <path>Sounds/gear-lck.wav</path>
-      <condition>
-        <equals>
-          <property>/gear/gear[0]/position-norm</property>
-          <value>1</value>
-        </equals>
-      </condition>
-    </gear>
-
-    <gear>
-      <name>gear</name>
-      <mode>in-transit</mode>
-      <path>Aircraft/Tu-134-JSB/Sounds/gear.wav</path>
-      <property>/gear/gear[1]/position-norm</property>
-      <pitch>
-        <internal>dt_play</internal>
-        <offset>1.0</offset>
-        <factor>-0.001</factor>
-      </pitch>
-    </gear>
-
-    <gear>
-      <name>gear-lock</name>
-      <path>Sounds/gear-lck.wav</path>
-      <condition>
-        <equals>
-          <property>/gear/gear[1]/position-norm</property>
-          <value>0</value>
-        </equals>
-      </condition>
-    </gear>
-
-    <gear>
-      <name>gear-lock</name>
-      <path>Sounds/gear-lck.wav</path>
-      <condition>
-        <equals>
-          <property>/gear/gear[1]/position-norm</property>
-          <value>1</value>
-        </equals>
-      </condition>
-    </gear>
-
-    <gear>
-      <name>gear</name>
-      <mode>in-transit</mode>
-      <path>Aircraft/Tu-134-JSB/Sounds/gear.wav</path>
-      <property>/gear/gear[2]/position-norm</property>
-      <pitch>
-        <internal>dt_play</internal>
-        <offset>1.0</offset>
-        <factor>-0.001</factor>
-      </pitch>
-    </gear>
-
-    <gear>
-      <name>gear-lock</name>
-      <path>Sounds/gear-lck.wav</path>
-      <condition>
-        <equals>
-          <property>/gear/gear[2]/position-norm</property>
-          <value>0</value>
-        </equals>
-      </condition>
-    </gear>
-
-    <gear>
-      <name>gear-lock</name>
-      <path>Sounds/gear-lck.wav</path>
-      <condition>
-        <equals>
-          <property>/gear/gear[2]/position-norm</property>
-          <value>1</value>
-        </equals>
-      </condition>
-    </gear>
-
-    <squeal>
-      <name>squeal</name>
-      <path>Sounds/squeal.wav</path>
-      <condition>
-        <property>/gear/gear[0]/wow</property>
-      </condition>
-      <volume>
-        <property>/velocities/speed-down-fps</property>
-        <factor>0.05</factor>
-      </volume>
-      <volume>
-        <property>/velocities/airspeed-kt</property>
-        <factor>0.01</factor>
-      </volume>
-      <volume>
-        <internal>dt_stop</internal>
-        <factor>0.05</factor>
-        <max>1.0</max>
-      </volume>
-      <pitch>
-        <property>/velocities/airspeed-kt</property>
-        <factor>0.0025</factor>
-        <offset>1.2</offset>
-      </pitch>
-    </squeal>
-
-    <squeal>
-      <name>squeal</name>
-      <path>Sounds/squeal.wav</path>
-      <condition>
-        <property>/gear/gear[1]/wow</property>
-      </condition>
-      <volume>
-        <property>/velocities/speed-down-fps</property>
-        <factor>0.05</factor>
-      </volume>
-      <volume>
-        <property>/velocities/airspeed-kt</property>
-        <factor>0.01</factor>
-      </volume>
-      <volume>
-        <internal>dt_stop</internal>
-        <factor>0.05</factor>
-        <max>1.0</max>
-      </volume>
-      <pitch>
-        <property>/velocities/airspeed-kt</property>
-        <factor>0.0025</factor>
-        <offset>1.2</offset>
-      </pitch>
-    </squeal>
-
-    <squeal>
-      <name>squeal</name>
-      <path>Sounds/squeal.wav</path>
-      <condition>
-        <property>/gear/gear[2]/wow</property>
-      </condition>
-      <volume>
-        <property>/velocities/speed-down-fps</property>
-        <factor>0.05</factor>
-      </volume>
-      <volume>
-        <property>/velocities/airspeed-kt</property>
-        <factor>0.01</factor>
-      </volume>
-      <volume>
-        <internal>dt_stop</internal>
-        <factor>0.05</factor>
-        <max>1.0</max>
-      </volume>
-      <pitch>
-        <property>/velocities/airspeed-kt</property>
-        <factor>0.0025</factor>
-        <offset>1.2</offset>
-      </pitch>
-    </squeal>
 
     <flap>
       <name>flaps</name>
@@ -689,7 +585,7 @@
     <wind>
       <name>wind</name>
       <mode>looped</mode>
-      <path>Aircraft/Tu-134-JSB/Sounds/wind.wav</path>
+      <path>Aircraft/Tu-134-JSB/Sounds/engine/wind.wav</path>
       <property>/velocities/airspeed-kt</property>
       <volume>
         <property>/velocities/airspeed-kt</property>
@@ -704,15 +600,57 @@
       </pitch>
     </wind>
 
-    <stall>
-      <name>stall</name>
-      <path>Sounds/stall.wav</path>
-      <property>/sim/alarms/stall-warning</property>
-      <volume>
-        <property>/velocities/airspeed-kt</property>
-        <min>90.0</min>
-      </volume>
-    </stall>
+  <marker>
+    <name>inner</name>
+    <path>Aircraft/Tu-134-JSB/Sounds/misc/omi_1.wav</path>
+    <condition>
+      <property>instrumentation/marker-beacon/inner</property>
+      <property>sim/current-view/internal</property>
+    </condition>
+    <mode>once</mode>
+    <position>
+      <x>0.0</x>
+      <y>0.0</y>
+      <z>1.5</z>
+    </position>
+    <volume>
+      <offset type="double">0.5</offset>
+    </volume>
+  </marker>
+  <marker>
+    <name>middle</name>
+    <path>Aircraft/Tu-134-JSB/Sounds/misc/omi_2.wav</path>
+    <condition>
+      <property>instrumentation/marker-beacon/middle</property>
+      <property>sim/current-view/internal</property>
+    </condition>
+    <mode>once</mode>
+    <position>
+      <x>0.0</x>
+      <y>0.0</y>
+      <z>1.5</z>
+    </position>
+    <volume>
+      <offset type="double">0.5</offset>
+    </volume>
+  </marker>
+  
+  <marker>
+    <name>outer</name>
+    <path>Aircraft/Tu-134-JSB/Sounds/misc/omi_3.wav</path>
+    <condition>
+      <property>instrumentation/marker-beacon/outer</property>
+      <property>sim/current-view/internal</property>
+    </condition>
+    <mode>once</mode>
+    <position>
+      <x>0.0</x>
+      <y>0.0</y>
+      <z>1.5</z>
+    </position>
+    <volume>
+      <offset type="double">0.5</offset>
+    </volume>
+  </marker>
   </fx>
-
 </PropertyList>

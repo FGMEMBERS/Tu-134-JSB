@@ -7,7 +7,7 @@
     <model>
       <livery>
         <name type="string">Nordavia</name>
-        <texture>Liveries/2048x2048/nordavia.png</texture>
+        <texture>Liveries/nordavia.png</texture>
         <emission>
           <red>   0.02 </red>
           <green> 0.02 </green>
