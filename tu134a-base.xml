@@ -15,12 +15,6 @@
       <livery>
         <file type="string">default</file>
       </livery>
-      <pushback>
-        <kp type="double">100</kp>
-        <ki type="double">25</ki>
-        <kd type="double">0</kd>
-        <position-norm type="double">0</position-norm>
-      </pushback>
     </model>
 
     <flaps>
@@ -80,11 +74,11 @@
  <engines>
   <engine n="0">
    <running>true</running>
-   <reverser-position type="double">0.000000</reverser-position>
+   <reverser-pos-norm type="double">0</reverser-pos-norm>
   </engine>
   <engine n="1">
    <running>true</running>
-   <reverser-position type="double">0.000000</reverser-position>
+   <reverser-pos-norm type="double">0</reverser-pos-norm>
   </engine>
  </engines>
 

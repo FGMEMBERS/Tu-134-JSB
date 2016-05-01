@@ -178,6 +178,7 @@
          <control-input axis="/controls/flight/rudder-trim" control="FLAP0" invert="true"/>
 
          <control-output control="FLAP0" prop="/surface-positions/rudder-pos-norm" min="1" max="-1"/>
+         <control-output control="FLAP0" prop="/gear/gear[0]/steering-norm" min="1" max="-1"/>
   </vstab>
 
   <!-- Soloviev D-30
@@ -321,4 +322,7 @@
   <!-- Cargo/Passengers -->
   <weight x=" 2" y="0" z="-2.3" mass-prop="/sim/weight[1]/weight-lb"/>
   
+  <thruster x="14.43"  y="0.00" z="-4.45" vx="1" vy="0" vz="0" thrust="20000">
+  <control-input axis="/sim/model/pushback/target-speed-fps" control="THROTTLE" src0="-1" src1="1" dst0="-1" dst1="1"/>
+  </thruster>
 </airplane>

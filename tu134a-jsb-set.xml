@@ -15,5 +15,32 @@
     <flight-model>jsb</flight-model>
     <aero>tu134a-jsb</aero>
 
+    <model>
+      <pushback>
+        <kp type="double">100</kp>
+        <ki type="double">25</ki>
+        <kd type="double">0</kd>
+        <position-norm type="double">0</position-norm>
+      </pushback>
+    </model>
   </sim>
+
+ <input>
+  <keyboard>
+   <key n="127">
+    <name>Delete</name>
+    <desc>Toggle Reversers</desc>
+    <binding>
+     <command>nasal</command>
+     <script>reversethrust.togglereverser()</script>
+    </binding>
+   </key>
+  </keyboard>
+ </input>
+
+  <nasal>
+  <reversethrust>
+   <file>Aircraft/Tu-134-JSB/Nasal/reverse-thrust.nas</file>
+  </reversethrust>
+ </nasal>
 </PropertyList>

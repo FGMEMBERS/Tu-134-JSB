@@ -16,7 +16,7 @@
     <name>Pushback</name>
     <path>Models/Airport/Pushback/Goldhofert.xml</path>
     <offsets>
-      <x-m>-15.0</x-m>
+      <x-m>-16.0</x-m>
       <y-m>  0.0</y-m>
       <z-m> -4.5</z-m>
     </offsets>
@@ -1272,7 +1272,7 @@
   </animation>
   
   <animation>
-    <name>TrainAvant</name>
+    <name>FrontGear</name>
     <object-name>roueA</object-name>
     <object-name>axeA0</object-name>
     <object-name>axeA2</object-name>
@@ -1282,8 +1282,8 @@
 
   <animation>
     <type>rotate</type>
-    <object-name>TrainAvant</object-name>
-    <property>surface-positions/rudder-pos-norm</property>
+    <object-name>FrontGear</object-name>
+    <property>/gear/gear[0]/steering-norm</property>
     <factor> -20 </factor>
     <center>
       <x-m> -14.5803 </x-m>

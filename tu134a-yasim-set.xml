@@ -14,6 +14,22 @@
 
     <flight-model>yasim</flight-model>
     <aero>tu134a-yasim</aero>
-
   </sim>
+
+ <input>
+  <keyboard>
+   <key n="127">
+    <name>Delete</name>
+    <desc>Toggle Reversers</desc>
+    <binding>
+      <command>property-toggle</command>
+      <property>controls/engines/engine[0]/reverser</property>
+    </binding>
+    <binding>
+      <command>property-toggle</command>
+      <property>controls/engines/engine[1]/reverser</property>
+    </binding>
+   </key>
+  </keyboard>
+ </input>
 </PropertyList>
