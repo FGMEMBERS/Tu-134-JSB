@@ -595,6 +595,7 @@
                     <property>aero/qbar-psf</property>
                     <property>metrics/Sw-sqft</property>
                     <property>aero/function/cy</property>
+                    <value>1.2</value><!-- hack for vr from manual-->
                 </product>
             </function>
             <function name="aero/coefficient/dCLsb">

@@ -40,7 +40,8 @@
     <object-name>profondeurG</object-name>
     <object-name>profondeurD</object-name>
     <object-name>direction</object-name>
-    <object-name>porte</object-name>
+    <object-name>doorL</object-name>
+    <object-name>doorR</object-name>
     <object-name>porteAG1</object-name>
     <object-name>porteAG2</object-name>
     <object-name>porteAD1</object-name>
@@ -118,7 +119,8 @@
     <object-name>profondeurG</object-name>
     <object-name>profondeurD</object-name>
     <object-name>direction</object-name>
-    <object-name>porte</object-name>
+    <object-name>doorL</object-name>
+    <object-name>doorR</object-name>
     <object-name>porteAG1</object-name>
     <object-name>porteAG2</object-name>
     <object-name>porteAD1</object-name>
@@ -250,6 +252,7 @@
     </offsets>
   </model>
 
+  <!-- tip trail -->
   <model>
     <path>Aircraft/Tu-134-JSB/Models/Effects/tiptrail/tiptrail.xml</path>
     <offsets>
@@ -1385,14 +1388,14 @@
 
   <!-- door -->
   <animation>
-    <name>LaPorte</name>
-    <object-name>porte</object-name>
+    <name>DoorLeft</name>
+    <object-name>doorL</object-name>
     <object-name>vitreporte</object-name>
   </animation>
 
   <animation>
     <type>pick</type>
-    <object-name>LaPorte</object-name>
+    <object-name>DoorLeft</object-name>
     <visible>true</visible>
     <action>
       <button>0</button>
@@ -1406,7 +1409,7 @@
 
   <animation>
     <type>rotate</type>
-    <object-name>LaPorte</object-name>
+    <object-name>DoorLeft</object-name>
     <property>sim/model/door-positions/crew/position-norm</property>
     <interpolation>
       <entry><ind> 0.0 </ind><dep>  0 </dep></entry>

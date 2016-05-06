@@ -2,16 +2,17 @@
 
 <PropertyList>
 
-  <!-- Compass --><!-- TODO: autopilot -->
+  <!-- Autopilot -->
+<!--
   <model>
-    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/compass/compass.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/ap/ap.xml</path>
     <offsets>
-      <x-m> -0.010 </x-m>
-      <y-m>  0.000 </y-m>
-      <z-m>  0.340 </z-m>
+      <x-m>  0.20 </x-m>
+      <y-m>  0.00 </y-m>
+      <z-m>  0.50 </z-m>
     </offsets>
   </model>
-
+-->
   <!-- left panel -->
   <!-- ABSU WARNINGS -->
   <model>
