@@ -18,9 +18,9 @@ views from captain backwards (shift+v)
     <config>
       <from-model type="bool">true</from-model>
       <ground-level-nearplane-m type="double">0.5f</ground-level-nearplane-m>
-      <x-offset-m archive="y"> -1.10 </x-offset-m> <!-- Right -->
-      <y-offset-m archive="y"> -0.90 </y-offset-m> <!-- Up    -->
-      <z-offset-m archive="y">  4.10 </z-offset-m> <!-- Back  -->
+      <x-offset-m archive="y"> -1.10 </x-offset-m> <!-- Left -->
+      <y-offset-m archive="y"> -0.90 </y-offset-m> <!-- Down -->
+      <z-offset-m archive="y">  3.80 </z-offset-m> <!-- Back -->
       <pitch-offset-deg> 0 </pitch-offset-deg>
       <default-field-of-view-deg> 60 </default-field-of-view-deg>
       <dynamic-view type="bool">true</dynamic-view>
@@ -35,9 +35,9 @@ views from captain backwards (shift+v)
       <from-model type="bool">true</from-model>
       <from-model-idx type="int">0</from-model-idx>
       <ground-level-nearplane-m type="double">0.01f</ground-level-nearplane-m>
-      <x-offset-m archive="y">   0.00 </x-offset-m> <!--Right-->
-      <y-offset-m archive="y">  -1.25 </y-offset-m> <!--Up-->
-      <z-offset-m archive="y"> -17.00 </z-offset-m> <!--Back-->
+      <x-offset-m archive="y">   0.00 </x-offset-m> <!-- Center -->
+      <y-offset-m archive="y">  -1.25 </y-offset-m> <!-- Down -->
+      <z-offset-m archive="y"> -17.00 </z-offset-m> <!-- Front -->
       <pitch-offset-deg> -5 </pitch-offset-deg>
       <default-field-of-view-deg type="double"> 80 </default-field-of-view-deg>
     </config>
@@ -51,8 +51,8 @@ views from captain backwards (shift+v)
       <from-model type="bool">true</from-model>
       <ground-level-nearplane-m type="double">0.5f</ground-level-nearplane-m>
       <x-offset-m archive="y">   0.47 </x-offset-m> <!-- Right -->
-      <y-offset-m archive="y">  -0.43 </y-offset-m> <!-- Up    -->
-      <z-offset-m archive="y"> -15.17 </z-offset-m> <!-- Back  -->
+      <y-offset-m archive="y">  -0.43 </y-offset-m> <!-- Down -->
+      <z-offset-m archive="y"> -15.17 </z-offset-m> <!-- Front -->
       <pitch-offset-deg> 2 </pitch-offset-deg>
       <default-field-of-view-deg> 80 </default-field-of-view-deg>
       <dynamic-view type="bool">true</dynamic-view>
@@ -63,9 +63,9 @@ views from captain backwards (shift+v)
     <name>Captain View</name>
     <internal archive="y">true</internal>
     <config>
-      <x-offset-m archive="y">  -0.47 </x-offset-m> <!-- Right -->
-      <y-offset-m archive="y">  -0.43 </y-offset-m> <!-- Up    -->
-      <z-offset-m archive="y"> -15.17 </z-offset-m> <!-- Back  -->
+      <x-offset-m archive="y">  -0.47 </x-offset-m> <!-- Left -->
+      <y-offset-m archive="y">  -0.43 </y-offset-m> <!-- Down -->
+      <z-offset-m archive="y"> -15.17 </z-offset-m> <!-- Front -->
       <pitch-offset-deg> -10 </pitch-offset-deg>
       <default-field-of-view-deg> 80 </default-field-of-view-deg>
     </config>

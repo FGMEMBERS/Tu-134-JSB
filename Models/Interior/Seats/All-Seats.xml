@@ -532,7 +532,7 @@
   <model>
     <path>Aircraft/Tu-134-JSB/Models/Interior/Seats/seatR.xml</path>
     <offsets>
-      <x-m>  3.100 </x-m>
+      <x-m>  3.000 </x-m>
       <y-m>  1.070 </y-m>
       <z-m> -1.400 </z-m>
     </offsets>
@@ -541,7 +541,7 @@
   <model>
     <path>Aircraft/Tu-134-JSB/Models/Interior/Seats/seatR.xml</path>
     <offsets>
-      <x-m>  3.100 </x-m>
+      <x-m>  3.000 </x-m>
       <y-m>  0.570 </y-m>
       <z-m> -1.400 </z-m>
     </offsets>
@@ -550,7 +550,7 @@
   <model>
     <path>Aircraft/Tu-134-JSB/Models/Interior/Seats/seatR.xml</path>
     <offsets>
-      <x-m>  4.300 </x-m>
+      <x-m>  4.000 </x-m>
       <y-m>  1.070 </y-m>
       <z-m> -1.400 </z-m>
     </offsets>
@@ -559,7 +559,7 @@
   <model>
     <path>Aircraft/Tu-134-JSB/Models/Interior/Seats/seatR.xml</path>
     <offsets>
-      <x-m>  4.300 </x-m>
+      <x-m>  4.000 </x-m>
       <y-m>  0.570 </y-m>
       <z-m> -1.400 </z-m>
     </offsets>
