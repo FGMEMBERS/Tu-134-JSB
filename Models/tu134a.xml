@@ -28,6 +28,16 @@
     <object-name>wings</object-name>
     <object-name>hstab</object-name>
     <object-name>direction</object-name>
+    <object-name>aileronG</object-name>
+    <object-name>aileronD</object-name>
+    <object-name>voletG1</object-name>
+    <object-name>voletG2</object-name>
+    <object-name>voletD1</object-name>
+    <object-name>voletD2</object-name>
+    <object-name>spoilerG</object-name>
+    <object-name>spoilerD</object-name>
+    <object-name>profondeurG</object-name>
+    <object-name>profondeurD</object-name>
     <object-name>engines</object-name>
     <object-name>wheelboxes</object-name>
     <object-name>wingMount</object-name>
