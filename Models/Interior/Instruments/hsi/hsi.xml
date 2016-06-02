@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <PropertyList>
  <path>hsi.ac</path>
 
@@ -17,9 +18,9 @@
   <object-name>Localizer</object-name>
   <property>instrumentation/nav/heading-needle-deflection</property>
   <interpolation>
-   <entry><ind>10</ind><dep>-14</dep></entry> 
+   <entry><ind>4</ind><dep>-14</dep></entry> 
    <entry><ind>0</ind><dep>0</dep></entry>
-  <entry><ind>-10</ind><dep>14</dep></entry>
+  <entry><ind>-4</ind><dep>14</dep></entry>
   </interpolation>
   <center>
    <x-m>0.1</x-m>
@@ -56,7 +57,7 @@
  
   <animation>
     <type>select</type>
-    <object-name>LocalizerNOK</object-name>
+    <object-name>LocalizerFlag</object-name>
     <condition>
       <not>
         <property>instrumentation/nav/in-range</property>
@@ -66,7 +67,7 @@
 
   <animation>
     <type>select</type>
-    <object-name>GlideslopeNOK</object-name>
+    <object-name>GlideslopeFlag</object-name>
     <condition>
       <not>
         <property>instrumentation/nav/has-gs</property>

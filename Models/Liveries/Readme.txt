@@ -1,6 +1,6 @@
 Default
 
-These liveries were made by : Emmanuel BARANGER 2013
+These liveries were made by : xcvb 2016
 
 aeroflot_new
 

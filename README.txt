@@ -7,7 +7,7 @@ JSBSim flight dynamics model by xcvb85 (2015)
 
 ------
 
-English/Français
+English/FranÃ§ais
 
 [English]
 ----------
@@ -46,7 +46,7 @@ http://embaranger.free.fr
 embaranger@free.fr
 
 
-[Français]
+[FranÃ§ais]
 ----------
 
 Un peu d'histoire
@@ -57,13 +57,13 @@ Tupolev Tu 134
 
 Constructeur                  :
 Type                          :
-Année                         :
+AnnÃ©e                         :
 Moteur                        :
 Envergure                     :
 Longueur                      :
 Hauteur                       :
-Poids à vide                  :
-Vitesse de croisière          :
+Poids Ã  vide                  :
+Vitesse de croisiÃ¨re          :
 Equipage                      : 
 
 
