@@ -36,13 +36,6 @@
     <object-name>vitre2</object-name>
   </animation>
   
-  <!-- working for Rembrandt -->
-  <effect>
-    <inherits-from>Aircraft/Tu-134-JSB/Models/Effects/Glass/glass</inherits-from>
-    <object-name>vitre</object-name>
-    <object-name>vitre2</object-name>
-  </effect>
-  
   <animation>
     <type>material</type>
     <object-name>marker</object-name>

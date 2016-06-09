@@ -17,7 +17,7 @@
   <model>
     <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/Warnings/tablo_absu.xml</path>
     <offsets>
-      <x-m>  0.188 </x-m>
+      <x-m>  0.190 </x-m>
       <y-m> -0.500 </y-m>
       <z-m>  0.210 </z-m>
     </offsets>
@@ -27,7 +27,7 @@
   <model>
     <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/agb/agb.xml</path>
     <offsets>
-      <x-m>  0.188 </x-m>
+      <x-m>  0.186 </x-m>
       <y-m> -0.380 </y-m>
       <z-m>  0.225 </z-m>
     </offsets>
@@ -37,7 +37,7 @@
   <model>
     <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/ai/ai.xml</path>
     <offsets>
-      <x-m>  0.190 </x-m>
+      <x-m>  0.187 </x-m>
       <y-m> -0.560 </y-m>
       <z-m>  0.110 </z-m>
     </offsets>
@@ -189,7 +189,7 @@
     <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/uap-12/uap-12.xml</path>
     <offsets>
       <x-m>  0.189 </x-m>
-      <y-m> -0.215 </y-m>
+      <y-m> -0.225 </y-m>
       <z-m>  0.280 </z-m>
     </offsets>
   </model>
@@ -199,7 +199,7 @@
     <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/ut/ut7a-1.xml</path>
     <offsets>
       <x-m>  0.187 </x-m>
-      <y-m> -0.105 </y-m>
+      <y-m> -0.110 </y-m>
       <z-m>  0.280 </z-m>
     </offsets>
   </model>
@@ -208,7 +208,7 @@
   <model>
     <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/ite/ite.xml</path>
     <offsets>
-      <x-m>  0.189 </x-m>
+      <x-m>  0.187 </x-m>
       <y-m>  0.000 </y-m>
       <z-m>  0.280 </z-m>
     </offsets>
@@ -219,7 +219,7 @@
     <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/ut/ut7a-2.xml</path>
     <offsets>
       <x-m>  0.187 </x-m>
-      <y-m>  0.105 </y-m>
+      <y-m>  0.110 </y-m>
       <z-m>  0.280 </z-m>
     </offsets>
   </model>
@@ -229,7 +229,7 @@
     <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/achs/achs.xml</path>
     <offsets>
       <x-m> 0.186 </x-m>
-      <y-m> 0.215 </y-m>
+      <y-m> 0.225 </y-m>
       <z-m> 0.280 </z-m>
     </offsets>
   </model>
@@ -399,7 +399,7 @@
   <model>
     <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/ai/ai.xml</path>
     <offsets>
-      <x-m> 0.190 </x-m>
+      <x-m> 0.187 </x-m>
       <y-m> 0.550 </y-m>
       <z-m> 0.110 </z-m>
     </offsets>

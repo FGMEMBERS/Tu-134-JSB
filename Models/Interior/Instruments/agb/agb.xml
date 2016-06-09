@@ -1,17 +1,24 @@
 <PropertyList>
   <path>agb.ac</path>
   <!--External panel lighting-->
- 
   
   <animation>
-    <type>shader</type>
-    <shader>chrome</shader>
-    <texture>glass.png</texture>
-    <object-name>Vitre</object-name>
+    <type>material</type>
+    <object-name>PitchScale</object-name>
+    <object-name>Blanker</object-name>
+    <object-name>Plane</object-name>
+    <object-name>Plane.001</object-name>
+    <object-name>Cylinder</object-name>
+    <emission>
+      <factor-prop>/systems/electrical/outputs/instrument-lights</factor-prop>
+      <red>   0.50 </red>
+      <green> 0.25 </green>
+      <blue>  0.25 </blue>
+    </emission>
   </animation>
-  
-  <!--Roll-->
 
+
+  <!--Roll-->
   <animation>
     <type>textranslate</type>
     <object-name>PitchScale</object-name>
