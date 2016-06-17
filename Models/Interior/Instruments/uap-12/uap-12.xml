@@ -1,11 +1,13 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
-    #############################################################################
-    #    (C) 2007 by Yurik V. Nikiforoff			 	  	#
-    #    	yurik@megasignal.com					   	#
-    #    	Jul 2007						   	#
-    #############################################################################	  
-    -->
+#############################################################################
+#    (C) 2007 by Yurik V. Nikiforoff - port for FGFS,  FDM,                 #
+# 2d & 3d instruments, animations, systems and over.                        #
+#     yurik@megasignal.com                                                  #
+#                                                                           #
+# Updated by xcvb 2016                                                      #
+#############################################################################   
+-->
 
 <!-- UAP-12 from AUASP (AOA & n & stall warning gauge)
 3D instrument for Tu-154 -->
@@ -13,16 +15,21 @@
  <path>uap-12.ac</path>
 
 <!-- External instruments lighting -->
-<animation>
-  <type>material</type>
-  <object-name>center</object-name>
-  <object-name>corner</object-name>
-  <emission>
-    <red-prop>Tu-134/light/panel/ext-red</red-prop>
-    <green-prop>Tu-134/light/panel/ext-green</green-prop>
-    <blue-prop>Tu-134/light/panel/ext-blue</blue-prop>
-  </emission>
-</animation>
+  <animation>
+    <type>material</type>
+    <object-name>base</object-name>
+    <object-name>a_needle</object-name>
+    <object-name>n_needle</object-name>
+    <object-name>n_blank</object-name>
+    <object-name>sector</object-name>
+    <object-name>knob</object-name>
+    <emission>
+      <factor-prop>/systems/electrical/outputs/instrument-lights</factor-prop>
+      <red>   0.50 </red>
+      <green> 0.25 </green>
+      <blue>  0.25 </blue>
+    </emission>
+  </animation>
 
 
 <!--Warning lamp-->

@@ -3,7 +3,9 @@
 <PropertyList>
   <sim include="Systems/tu134a-views.xml">
     <startup>
-      <splash-texture>Aircraft/Tu-134-JSB/tu134a-splash.png</splash-texture>
+      <splash-texture>Aircraft/Tu-134-JSB/Splash/splash1.png</splash-texture>
+      <splash-texture>Aircraft/Tu-134-JSB/Splash/splash2.png</splash-texture>
+      <splash-texture>Aircraft/Tu-134-JSB/Splash/splash3.png</splash-texture>
     </startup>
 
     <sound>

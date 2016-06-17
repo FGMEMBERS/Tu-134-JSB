@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
     #############################################################################
     #    (C) 2007 by Yurik V. Nikiforoff - port for FGFS,  FDM, 	  	#
@@ -12,29 +12,20 @@
 <PropertyList>
  <path>uiz.ac</path>
 <!-- Internal instruments lighting -->
-<animation>
-  <type>material</type>
-  <object-name>base</object-name>
-  <object-name>needle_1</object-name>
-  <object-name>needle_2</object-name>
-  <object-name>needle_3</object-name>
-  <emission>
-    <red-prop>Tu-134/light/instruments/int-red</red-prop>
-    <green-prop>Tu-134/light/instruments/int-green</green-prop>
-    <blue-prop>Tu-134/light/instruments/int-blue</blue-prop>
-  </emission>
-</animation>
-<!--External panel lighting-->
-<animation>
-  <type>material</type>
-  <object-name>cover</object-name>
-  <emission>
-    <red-prop>Tu-134/light/panel/ext-red</red-prop>
-    <green-prop>Tu-134/light/panel/ext-green</green-prop>
-    <blue-prop>Tu-134/light/panel/ext-blue</blue-prop>
-  </emission>
-</animation>
-
+  <animation>
+    <type>material</type>
+    <object-name>base</object-name>
+    <object-name>cover</object-name>
+    <object-name>needle_1</object-name>
+    <object-name>needle_2</object-name>
+    <object-name>needle_3</object-name>
+    <emission>
+      <red>   0.50 </red>
+      <green> 0.25 </green>
+      <blue>  0.25 </blue>
+      <factor-prop>/systems/electrical/outputs/instrument-lights</factor-prop>
+    </emission>
+  </animation>
   
 <!--Needles-->
 <animation>
@@ -46,6 +37,11 @@
       <entry><ind>	0.0</ind>	<dep>	-49.0</dep></entry>
       <entry><ind>	100.0</ind>	<dep>	48.0</dep></entry>
     </interpolation>
+  <center>
+    <x-m>0.0</x-m>
+    <y-m>0.0</y-m>
+    <z-m>0.01</z-m>
+  </center>
     <axis>
       <x>-1.0</x>
       <y>0.0</y>
@@ -70,8 +66,8 @@
   </interpolation>
   <center>
     <x-m>0.0</x-m>
-    <y-m>-0.02276</y-m>
-    <z-m>-0.02298</z-m>
+    <y-m>-0.0225</y-m>
+    <z-m>-0.0230</z-m>
   </center>
   <axis>
     <x>1.0</x>
@@ -90,8 +86,8 @@
   </interpolation>
   <center>
     <x-m>0.0</x-m>
-    <y-m>0.02235</y-m>
-    <z-m>-0.02288</z-m>
+    <y-m>0.0225</y-m>
+    <z-m>-0.0230</z-m>
   </center>
   <axis>
     <x>-1.0</x>

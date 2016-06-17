@@ -7,7 +7,7 @@ name "Blender_export__ite.ac"
 kids 5
 OBJECT poly
 name "base"
-loc 0.0080149 0.0002001 -0.0000997
+loc 0.0010149 0.0002001 -0.0000997
 crease 100.0
 texture "ite.png"
 texrep 1 1
@@ -83,7 +83,7 @@ refs 32
 kids 0
 OBJECT poly
 name "frame"
-loc 0.0070172 0.0002184 0.0000003
+loc 0.0000172 0.0002184 0.0000003
 crease 30.0
 texture "ite.png"
 texrep 1 1
@@ -1180,7 +1180,7 @@ refs 4
 kids 0
 OBJECT poly
 name "needle1"
-loc 0.0090000 0.0074934 -0.0000077
+loc 0.0020000 0.0074934 -0.0000077
 crease 30.0
 texture "needle.png"
 texrep 1 1
@@ -1801,7 +1801,7 @@ refs 4
 kids 0
 OBJECT poly
 name "needle2"
-loc 0.0085815 0.0069802 0.0000000
+loc 0.0015815 0.0069802 0.0000000
 crease 30.0
 texture "needle.png"
 texrep 1 1
@@ -2422,7 +2422,7 @@ refs 4
 kids 0
 OBJECT poly
 name "shadow"
-loc 0.0010000 0.0000000 0.0000000
+loc 0.0005000 0.0000000 0.0000000
 crease 35.0
 texture "shadow.png"
 texrep 1 1

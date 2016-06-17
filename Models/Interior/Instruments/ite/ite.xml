@@ -1,8 +1,9 @@
-<?xml version="1.0"?>
-
-<!-- (c) 2007 by Yurik V. Nikiroff (single needle tachometer).
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+(c) 2007 by Yurik V. Nikiroff (single needle tachometer).
 
 Modified by lastmin-II, 2015
+Modified by xcvb, 2016
 
 Changes:
 - adapted for Tu-134;
