@@ -16,8 +16,6 @@ Changes:
 
 <PropertyList>
 
-  <path>ite.ac</path>
-
   <!-- Internal instruments lighting -->
   <animation>
     <type>material</type>
@@ -70,4 +68,13 @@ Changes:
     </axis>
   </animation>
 
+<!-- Model -->
+<model>
+  <path>ite.ac</path>
+</model>
+
+<!-- Shadows -->
+  <model>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/divers/shadow2.ac</path>
+  </model>
 </PropertyList>

@@ -65,7 +65,7 @@
   <model>
     <path>Aircraft/Tu-134-JSB/Models/Interior/tu134a-instruments.xml</path>
     <offsets>
-      <x-m> -16.056 </x-m>
+      <x-m> -15.869 </x-m>
       <y-m>   0.000 </y-m>
       <z-m>  -0.872 </z-m>
     </offsets>

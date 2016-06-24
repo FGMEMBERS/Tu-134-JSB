@@ -1,0 +1,265 @@
+<?xml version="1.0"?>
+<PropertyList>
+    <name>autopilot-dlg</name>
+    <layout>vbox</layout>
+
+    <group>
+        <layout>hbox</layout>
+
+        <hrule><stretch>true</stretch></hrule>
+        <text><label>Autopilot</label></text>
+        <hrule><stretch>true</stretch></hrule>
+
+        <button>
+            <halign>right</halign>
+            <pref-width>30</pref-width>
+            <legend>X</legend>
+            <default>true</default>
+            <key>Esc</key>
+            <binding>
+                <command>dialog-close</command>
+            </binding>
+        </button>
+    </group>
+
+<!--  AP controller  -->
+
+    <group>
+        <layout>vbox</layout>
+
+            <group>
+                <layout>hbox</layout>
+
+            <group>
+                <layout>table</layout>
+
+                <radio>
+                    <row>0</row>
+                    <col>0</col>
+                    <property>/sim/gui/dialogs/autopilot/dg-heading-hold</property>
+                    <live>true</live>
+                    <binding>
+                        <command>nasal</command>
+                        <script>hdg.set("dg-heading-hold")</script>
+                    </binding>
+                </radio>
+                <text>
+                    <label>Heading</label>
+                    <row>0</row>
+                    <col>1</col>
+                </text>
+                <radio>
+                    <row>1</row>
+                    <col>0</col>
+                    <property>/sim/gui/dialogs/autopilot/dg-heading-hold</property>
+                    <live>true</live>
+                    <binding>
+                        <command>nasal</command>
+                        <script>hdg.set("dg-heading-hold")</script>
+                    </binding>
+                </radio>
+                <text>
+                    <label>Wings Level</label>
+                    <row>1</row>
+                    <col>1</col>
+                </text>
+                <radio>
+                    <row>2</row>
+                    <col>0</col>
+                    <property>/sim/gui/dialogs/autopilot/dg-heading-hold</property>
+                    <live>true</live>
+                    <binding>
+                        <command>nasal</command>
+                        <script>hdg.set("dg-heading-hold")</script>
+                    </binding>
+                </radio>
+                <text>
+                    <label>Localizer</label>
+                    <row>2</row>
+                    <col>1</col>
+                </text>
+            </group>
+
+            <group>
+                <layout>vbox</layout>
+
+                <button>
+                    <pref-height>40</pref-height>
+                    <pref-width>30</pref-width>
+                    <legend>DN</legend>
+                    <binding>
+                        <command>nasal</command>
+                        <script>FCS.APP65_input("pitch-dn");</script>
+                    </binding>
+                    <binding>
+                        <command>dialog-update</command>
+                    </binding>
+                </button>
+
+                <button>
+                    <pref-height>40</pref-height>
+                    <pref-width>30</pref-width>
+                    <legend>UP</legend>
+                    <binding>
+                        <command>nasal</command>
+                        <script>FCS.APP65_input("pitch-up");</script>
+                    </binding>
+                    <binding>
+                        <command>dialog-update</command>
+                    </binding>
+                </button>
+            </group>
+            <dial>
+                <pref-width>80</pref-width>
+                <pref-height>70</pref-height>
+                <property>instrumentation/fgc-65/settings/roll</property>
+                <min>-30</min>
+                <max>30</max>
+                <wrap>false</wrap>
+                <binding>
+                    <command>dialog-apply</command>
+                </binding>
+                <binding>
+                    <command>dialog-update</command>
+                </binding>
+            </dial>
+            </group>
+
+
+            <group>
+                <layout>table</layout>
+
+                <button>
+                    <row>0</row>
+                    <col>0</col>
+                    <pref-height>40</pref-height>
+                    <pref-width>100</pref-width>
+                    <legend>Set Roll Mode</legend>
+                </button>
+
+                <button>
+                    <row>0</row>
+                    <col>1</col>
+                    <pref-height>40</pref-height>
+                    <pref-width>100</pref-width>
+                    <legend>Set Pitch Mode</legend>
+                </button>
+
+                <button>
+                    <row>1</row>
+                    <col>0</col>
+                    <pref-height>40</pref-height>
+                    <pref-width>100</pref-width>
+                    <legend>Activate</legend>
+                </button>
+
+                <button>
+                    <row>1</row>
+                    <col>1</col>
+                    <pref-height>40</pref-height>
+                    <pref-width>100</pref-width>
+                    <legend>Stabilize Height</legend>
+                </button>
+            </group>
+
+
+
+            <group>
+                <layout>vbox</layout>
+<checkbox>
+  <label>Power</label>
+  <halign>left</halign>
+  <binding>
+    <command>dialog-update</command>
+  </binding>
+</checkbox>
+<checkbox>
+  <label>Roll Channel</label>
+  <halign>left</halign>
+  <binding>
+    <command>dialog-update</command>
+  </binding>
+</checkbox>
+<checkbox>
+  <label>Pitch Channel</label>
+  <halign>left</halign>
+  <binding>
+    <command>dialog-update</command>
+  </binding>
+</checkbox>
+            </group>
+
+        </group>
+
+
+
+
+    <group>
+        <layout>hbox</layout>
+        <hrule><stretch>true</stretch></hrule>
+
+        <text>
+            <label>Autothrottle</label>
+        </text>
+
+        <hrule><stretch>true</stretch></hrule>
+    </group>
+
+    <group>
+        <layout>table</layout>
+
+<!-- HDG set -->
+
+<checkbox>
+  <row>0</row>
+  <col>0</col>
+  <label>Power</label>
+  <binding>
+    <command>dialog-update</command>
+  </binding>
+</checkbox>
+
+<button>
+  <pref-height>40</pref-height>
+  <pref-width>40</pref-width>
+  <row>0</row>
+  <col>1</col>
+  <legend>AT</legend>
+  <binding>
+    <command>dialog-update</command>
+  </binding>
+</button>
+
+<text>
+  <pref-height>40</pref-height>
+  <pref-width>40</pref-width>
+  <row>1</row>
+  <col>0</col>
+  <label>Deactivate</label>
+</text>
+
+<button>
+  <pref-height>40</pref-height>
+  <pref-width>40</pref-width>
+  <row>1</row>
+  <col>1</col>
+  <legend>l</legend>
+  <binding>
+    <command>dialog-update</command>
+  </binding>
+</button>
+
+<button>
+  <pref-height>40</pref-height>
+  <pref-width>40</pref-width>
+  <row>1</row>
+  <col>2</col>
+  <legend>ll</legend>
+  <binding>
+    <command>dialog-update</command>
+  </binding>
+</button>
+
+    </group>
+
+</PropertyList>

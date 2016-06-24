@@ -17,7 +17,7 @@
   <model>
     <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/Warnings/tablo_absu.xml</path>
     <offsets>
-      <x-m>  0.190 </x-m>
+      <x-m>  0.002 </x-m>
       <y-m> -0.500 </y-m>
       <z-m>  0.210 </z-m>
     </offsets>
@@ -27,7 +27,7 @@
   <model>
     <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/agb/agb.xml</path>
     <offsets>
-      <x-m>  0.186 </x-m>
+      <x-m>  0.000 </x-m>
       <y-m> -0.380 </y-m>
       <z-m>  0.225 </z-m>
     </offsets>
@@ -37,7 +37,7 @@
   <model>
     <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/ai/ai.xml</path>
     <offsets>
-      <x-m>  0.187 </x-m>
+      <x-m>  0.000 </x-m>
       <y-m> -0.560 </y-m>
       <z-m>  0.110 </z-m>
     </offsets>
@@ -47,7 +47,7 @@
   <model>
     <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/turn/turn.xml</path>
     <offsets>
-      <x-m>  0.188 </x-m>
+      <x-m>  0.000 </x-m>
       <y-m> -0.770 </y-m>
       <z-m>  0.050 </z-m>
     </offsets>
@@ -57,7 +57,7 @@
   <model>
     <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/asi/asi.xml</path>
     <offsets>
-      <x-m>  0.187 </x-m>
+      <x-m>  0.000 </x-m>
       <y-m> -0.666 </y-m>
       <z-m>  0.080 </z-m>
     </offsets>
@@ -67,7 +67,7 @@
   <model>
     <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/vsi/vsi.xml</path>
     <offsets>
-      <x-m>  0.187 </x-m>
+      <x-m>  0.000 </x-m>
       <y-m> -0.455 </y-m>
       <z-m>  0.080 </z-m>
     </offsets>
@@ -78,7 +78,7 @@
 <!--    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/rv-5m/rv-5m.xml</path>-->
     <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/radio_alt/radio_alt.xml</path>
     <offsets>
-      <x-m>  0.189 </x-m>
+      <x-m>  0.000 </x-m>
       <y-m> -0.363 </y-m>
       <z-m>  0.070 </z-m>
     </offsets>
@@ -88,7 +88,7 @@
   <model>
     <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/kus730-1100/kus730-1100.xml</path>
     <offsets>
-      <x-m>  0.188 </x-m>
+      <x-m>  0.000 </x-m>
       <y-m> -0.850 </y-m>
       <z-m> -0.030 </z-m>
     </offsets>
@@ -98,7 +98,7 @@
   <model>
     <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/um-1/um-cp.xml</path>
     <offsets>
-      <x-m>  0.188 </x-m>
+      <x-m>  0.000 </x-m>
       <y-m> -0.760 </y-m>
       <z-m> -0.040 </z-m>
     </offsets>
@@ -108,7 +108,7 @@
   <model>
     <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/iku-1/iku-1_l.xml</path>
     <offsets>
-      <x-m>  0.189 </x-m>
+      <x-m>  0.000 </x-m>
       <y-m> -0.666 </y-m>
       <z-m> -0.020 </z-m>
     </offsets>
@@ -118,7 +118,7 @@
   <model>
     <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/hsi/hsi.xml</path>
     <offsets>
-      <x-m>  0.190 </x-m>
+      <x-m>  0.002 </x-m>
       <y-m> -0.560 </y-m>
       <z-m> -0.015 </z-m>
     </offsets>
@@ -128,7 +128,7 @@
   <model>
     <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/uvid-15/uvid-15-m.xml</path>
     <offsets>
-      <x-m>  0.188 </x-m>
+      <x-m>  0.000 </x-m>
       <y-m> -0.450 </y-m>
       <z-m> -0.020 </z-m>
     </offsets>
@@ -138,7 +138,7 @@
   <model>
     <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/uvo/uvo.xml</path>
     <offsets>
-      <x-m>  0.189 </x-m>
+      <x-m>  0.000 </x-m>
       <y-m> -0.360 </y-m>
       <z-m> -0.020 </z-m>
     </offsets>
@@ -148,7 +148,7 @@
   <model>
     <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/tnv-15/tnv-15.xml</path>
     <offsets>
-      <x-m>  0.187 </x-m>
+      <x-m>  0.000 </x-m>
       <y-m> -0.600 </y-m>
       <z-m> -0.170 </z-m>
     </offsets>
@@ -158,7 +158,7 @@
   <model>
     <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/idr-1/idr-1.xml</path>
     <offsets>
-      <x-m>  0.187 </x-m>
+      <x-m>  0.000 </x-m>
       <y-m> -0.530 </y-m>
       <z-m> -0.150 </z-m>
     </offsets>
@@ -168,7 +168,7 @@
   <model>
     <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/ppda/ppda.xml</path>
     <offsets>
-      <x-m>  0.187 </x-m>
+      <x-m>  0.000 </x-m>
       <y-m> -0.450 </y-m>
       <z-m> -0.130 </z-m>
     </offsets>
@@ -178,7 +178,7 @@
   <model>
     <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/gear/gear.xml</path>
     <offsets>
-      <x-m>  0.187 </x-m>
+      <x-m>  0.000 </x-m>
       <y-m> -0.360 </y-m>
       <z-m> -0.120 </z-m>
     </offsets>
@@ -189,8 +189,8 @@
   <model>
     <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/uap-12/uap-12.xml</path>
     <offsets>
-      <x-m>  0.189 </x-m>
-      <y-m> -0.225 </y-m>
+      <x-m>  0.000 </x-m>
+      <y-m> -0.215 </y-m>
       <z-m>  0.280 </z-m>
     </offsets>
   </model>
@@ -199,8 +199,8 @@
   <model>
     <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/ut/ut7a-1.xml</path>
     <offsets>
-      <x-m>  0.187 </x-m>
-      <y-m> -0.110 </y-m>
+      <x-m>  0.000 </x-m>
+      <y-m> -0.107 </y-m>
       <z-m>  0.280 </z-m>
     </offsets>
   </model>
@@ -209,7 +209,7 @@
   <model>
     <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/ite/ite.xml</path>
     <offsets>
-      <x-m>  0.187 </x-m>
+      <x-m>  0.000 </x-m>
       <y-m>  0.000 </y-m>
       <z-m>  0.280 </z-m>
     </offsets>
@@ -219,8 +219,8 @@
   <model>
     <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/ut/ut7a-2.xml</path>
     <offsets>
-      <x-m>  0.187 </x-m>
-      <y-m>  0.110 </y-m>
+      <x-m>  0.000 </x-m>
+      <y-m>  0.107 </y-m>
       <z-m>  0.280 </z-m>
     </offsets>
   </model>
@@ -229,8 +229,8 @@
   <model>
     <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/achs/achs.xml</path>
     <offsets>
-      <x-m> 0.186 </x-m>
-      <y-m> 0.225 </y-m>
+      <x-m> 0.000 </x-m>
+      <y-m> 0.215 </y-m>
       <z-m> 0.280 </z-m>
     </offsets>
   </model>
@@ -239,7 +239,7 @@
   <model>
     <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/manometer/mano.xml</path>
     <offsets>
-      <x-m>  0.187 </x-m>
+      <x-m>  0.000 </x-m>
       <y-m> -0.235 </y-m>
       <z-m>  0.160 </z-m>
     </offsets>
@@ -249,7 +249,7 @@
   <model>
     <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/manometer/mano.xml</path>
     <offsets>
-      <x-m>  0.187 </x-m>
+      <x-m>  0.000 </x-m>
       <y-m>  0.235 </y-m>
       <z-m>  0.160 </z-m>
     </offsets>
@@ -259,7 +259,7 @@
   <model>
     <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/divers/landing-lights.xml</path>
     <offsets>
-      <x-m>  0.187 </x-m>
+      <x-m>  0.000 </x-m>
       <y-m> -0.235 </y-m>
       <z-m>  0.200 </z-m>
     </offsets>
@@ -269,7 +269,7 @@
   <model>
     <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/divers/landing-lights.xml</path>
     <offsets>
-      <x-m> 0.187 </x-m>
+      <x-m> 0.000 </x-m>
       <y-m> 0.235 </y-m>
       <z-m> 0.200 </z-m>
     </offsets>
@@ -279,7 +279,7 @@
   <model>
     <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/uiz/uiz-1.xml</path>
     <offsets>
-      <x-m>  0.186 </x-m>
+      <x-m>  0.000 </x-m>
       <y-m> -0.135 </y-m>
       <z-m>  0.170 </z-m>
     </offsets>
@@ -289,7 +289,7 @@
   <model>
     <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/Warnings/engines.xml</path>
     <offsets>
-      <x-m> 0.187 </x-m>
+      <x-m> 0.000 </x-m>
       <y-m> 0.000 </y-m>
       <z-m> 0.170 </z-m>
     </offsets>
@@ -299,7 +299,7 @@
   <model>
     <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/uiz/uiz-2.xml</path>
     <offsets>
-      <x-m> 0.186 </x-m>
+      <x-m> 0.000 </x-m>
       <y-m> 0.135 </y-m>
       <z-m> 0.170 </z-m>
     </offsets>
@@ -309,7 +309,7 @@
   <model>
     <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/uvid-15/uvid-15-ft.xml</path>
     <offsets>
-      <x-m>  0.188 </x-m>
+      <x-m>  0.000 </x-m>
       <y-m> -0.220 </y-m>
       <z-m>  0.070 </z-m>
     </offsets>
@@ -319,7 +319,7 @@
   <model>
     <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/Warnings/ap.xml</path>
     <offsets>
-      <x-m>  0.187 </x-m>
+      <x-m>  0.000 </x-m>
       <y-m> -0.125 </y-m>
       <z-m>  0.045 </z-m>
     </offsets>
@@ -329,7 +329,7 @@
   <model>
     <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/psp/psp.xml</path>
     <offsets>
-      <x-m>  0.189 </x-m>
+      <x-m>  0.000 </x-m>
       <y-m>  0.000 </y-m>
       <z-m>  0.045 </z-m>
     </offsets>
@@ -339,8 +339,8 @@
   <model>
     <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/fuel_meter/fuel_meter_1.xml</path>
     <offsets>
-      <x-m>  0.189 </x-m>
-      <y-m>  0.120 </y-m>
+      <x-m>  0.000 </x-m>
+      <y-m>  0.119 </y-m>
       <z-m>  0.045 </z-m>
     </offsets>
   </model>
@@ -349,8 +349,8 @@
   <model>
     <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/fuel_meter/fuel_meter_2.xml</path>
     <offsets>
-      <x-m>  0.189 </x-m>
-      <y-m>  0.220 </y-m>
+      <x-m>  0.000 </x-m>
+      <y-m>  0.224 </y-m>
       <z-m>  0.045 </z-m>
     </offsets>
   </model>
@@ -359,7 +359,7 @@
   <model>
     <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/at/at.xml</path>
     <offsets>
-      <x-m>  0.187 </x-m>
+      <x-m>  0.000 </x-m>
       <y-m> -0.142 </y-m>
       <z-m> -0.075 </z-m>
     </offsets>
@@ -369,7 +369,7 @@
   <model>
     <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/com/com-1.xml</path>
     <offsets>
-      <x-m>  0.182 </x-m>
+      <x-m>  0.000 </x-m>
       <y-m>  0.142 </y-m>
       <z-m> -0.075 </z-m>
     </offsets>
@@ -380,7 +380,7 @@
   <model>
     <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/turn/turn.xml</path>
     <offsets>
-      <x-m> 0.188 </x-m>
+      <x-m> 0.000 </x-m>
       <y-m> 0.360 </y-m>
       <z-m> 0.250 </z-m>
     </offsets>
@@ -390,7 +390,7 @@
   <model>
     <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/kus730-1100/kus730-1100.xml</path>
     <offsets>
-      <x-m> 0.188 </x-m>
+      <x-m> 0.000 </x-m>
       <y-m> 0.355 </y-m>
       <z-m> 0.160 </z-m>
     </offsets>
@@ -400,7 +400,7 @@
   <model>
     <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/um-1/um-cp.xml</path>
     <offsets>
-      <x-m> 0.188 </x-m>
+      <x-m> 0.000 </x-m>
       <y-m> 0.355 </y-m>
       <z-m> 0.070 </z-m>
     </offsets>
@@ -410,7 +410,7 @@
   <model>
     <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/asi/asi.xml</path>
     <offsets>
-      <x-m> 0.187 </x-m>
+      <x-m> 0.000 </x-m>
       <y-m> 0.440 </y-m>
       <z-m> 0.080 </z-m>
     </offsets>
@@ -420,7 +420,7 @@
   <model>
     <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/ai/ai.xml</path>
     <offsets>
-      <x-m> 0.187 </x-m>
+      <x-m> 0.000 </x-m>
       <y-m> 0.550 </y-m>
       <z-m> 0.110 </z-m>
     </offsets>
@@ -430,7 +430,7 @@
   <model>
     <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/vsi/vsi.xml</path>
     <offsets>
-      <x-m> 0.187 </x-m>
+      <x-m> 0.000 </x-m>
       <y-m> 0.665 </y-m>
       <z-m> 0.080 </z-m>
     </offsets>
@@ -440,7 +440,7 @@
   <model>
     <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/uvpd/uvpd.xml</path>
     <offsets>
-      <x-m> 0.188 </x-m>
+      <x-m> 0.000 </x-m>
       <y-m> 0.355 </y-m>
       <z-m>-0.020 </z-m>
     </offsets>
@@ -450,7 +450,7 @@
   <model>
     <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/iku-1/iku-1_r.xml</path>
     <offsets>
-      <x-m> 0.188 </x-m>
+      <x-m> 0.000 </x-m>
       <y-m> 0.440 </y-m>
       <z-m>-0.020 </z-m>
     </offsets>
@@ -460,7 +460,7 @@
   <model>
     <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/hsi/hsi.xml</path>
     <offsets>
-      <x-m>  0.190 </x-m>
+      <x-m>  0.002 </x-m>
       <y-m>  0.550 </y-m>
       <z-m> -0.015 </z-m>
     </offsets>
@@ -470,7 +470,7 @@
   <model>
     <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/uvid-15/uvid-15-m.xml</path>
     <offsets>
-      <x-m>  0.188 </x-m>
+      <x-m>  0.000 </x-m>
       <y-m>  0.665 </y-m>
       <z-m> -0.010 </z-m>
     </offsets>
@@ -481,7 +481,7 @@
 <!--    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/rv-5m/rv-5m.xml</path>-->
     <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/radio_alt/radio_alt.xml</path>
     <offsets>
-      <x-m>  0.189 </x-m>
+      <x-m>  0.000 </x-m>
       <y-m>  0.750 </y-m>
       <z-m>  0.020 </z-m>
     </offsets>
@@ -491,7 +491,7 @@
   <model>
     <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/tnv-15/tnv-15.xml</path>
     <offsets>
-      <x-m>  0.187 </x-m>
+      <x-m>  0.000 </x-m>
       <y-m>  0.880 </y-m>
       <z-m> -0.030 </z-m>
     </offsets>
@@ -501,7 +501,7 @@
   <model>
     <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/idr-1/idr-1.xml</path>
     <offsets>
-      <x-m>  0.187 </x-m>
+      <x-m>  0.000 </x-m>
       <y-m>  0.830 </y-m>
       <z-m> -0.020 </z-m>
     </offsets>
@@ -511,7 +511,7 @@
   <model>
     <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/vsi/vsi.xml</path>
     <offsets>
-      <x-m> 0.187 </x-m>
+      <x-m> 0.000 </x-m>
       <y-m> 0.870 </y-m>
       <z-m>-0.100 </z-m>
     </offsets>

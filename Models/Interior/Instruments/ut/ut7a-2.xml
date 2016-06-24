@@ -13,22 +13,20 @@
 
 <!-- Exhaust gas temperature indicator UT-7A-710 3D instrument for Tu-134 -->
 <PropertyList>
-  
-  <path>ut7a.ac</path>
-  
+
   <animation>
     <object-name>base</object-name>
     <object-name>needle_1</object-name>
     <object-name>needle_2</object-name>
     <object-name>knob</object-name>
   </animation>
-  
+
   <!-- working for Rembrandt -->
   <effect>
     <inherits-from>Aircraft/Tu-134-JSB/Models/Effects/Glass/glass</inherits-from>
     <object-name>vitre</object-name>
   </effect>
-  
+
   <animation>
     <type>material</type>
     <object-name>base</object-name>
@@ -42,7 +40,7 @@
       <blue>  0.25 </blue>
     </emission>
   </animation>
-  
+
   <!--Needles-->
   <animation>
     <type>rotate</type>
@@ -61,11 +59,11 @@
       <z>  0 </z>
     </axis>
   </animation>
-  
+
   <animation>
     <type>rotate</type>
     <object-name>needle_2</object-name>
-    <property>engines/engine[1]/egt_degc</property>
+    <property>engines/engine[1]/epr</property>
     <factor> 3.6 </factor>
     <offset-deg> 180 </offset-deg>
     <center>
@@ -79,5 +77,14 @@
       <z>  0 </z>
     </axis>
   </animation>
-  
+
+<!-- Model -->
+<model>
+  <path>ut7a.ac</path>
+</model>
+
+<!-- Shadows -->
+  <model>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/divers/shadow1.ac</path>
+  </model>
 </PropertyList>

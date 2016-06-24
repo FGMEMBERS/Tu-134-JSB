@@ -23,6 +23,7 @@
     <object-name>n_blank</object-name>
     <object-name>sector</object-name>
     <object-name>knob</object-name>
+    <object-name>lamp</object-name>
     <emission>
       <factor-prop>/systems/electrical/outputs/instrument-lights</factor-prop>
       <red>   0.50 </red>
@@ -34,27 +35,18 @@
 
 <!--Warning lamp-->
 <animation>
-  <type>material</type>
-  <object-name>lamp</object-name>
-  <emission>
-    <red>1.0</red>
-    <green>1.0</green>
-    <blue>1.0</blue>
-    <factor-prop>Tu-134/systems/electrical/checking-lamps/lamps-power</factor-prop>
-  </emission>
-</animation>
-
-<animation>
   <type>select</type>
   <object-name>lamp</object-name>
   <condition>
     <or>
-  	<property>Tu-134/instrumentation/uap-12/warn</property>
+  <greater-than>
+    <property>accelerations/pilot-gdamped</property>
+    <value type="double">2.0</value>
+  </greater-than>
         <property>Tu-134/systems/electrical/checking-lamps/main-panel</property>
     </or>
   </condition>
 </animation>
-
 
 <!--Needles-->
 <animation>
@@ -112,6 +104,7 @@
   </axis>
 </animation>
 
+<!--
 <animation>
   <type>rotate</type>
   <object-name>n_max</object-name>
@@ -172,6 +165,6 @@
     </binding>
   </action>
 </animation>
-
+-->
 
 </PropertyList>

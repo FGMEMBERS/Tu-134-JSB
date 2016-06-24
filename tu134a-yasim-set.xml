@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<PropertyList include="tu134a-base.xml">
+<PropertyList include="tu134a-common.xml">
   <sim>
     <description>Tu-134A (YASim)</description>
     <author>New Version: lastmin-II, xcvb; Original Tu-134: Emmanuel BARANGER, Artem Kovalchuk and Gary Buckaroo; some stuff from other models: Yurik V. Nikiforoff, specter</author>

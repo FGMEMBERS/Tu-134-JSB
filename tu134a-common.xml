@@ -60,7 +60,37 @@
     </multiplay>
 
     <help include="Systems/help.xml"/>
-    <menubar include="Dialogs/tu134a-menu.xml"/>
+
+    <menubar>
+      <default>
+        <menu n="10">
+          <label>Tu-134A</label>
+          <item>
+            <label>Options</label>
+            <binding>
+              <command>nasal</command>
+              <script>dialogs.options.open()</script>
+            </binding>
+          </item>
+          <item>
+            <label>Select Livery</label>
+            <binding>
+              <command>nasal</command>
+              <script>aircraft.livery.dialog.toggle()</script>
+            </binding>
+          </item>
+          <item>
+            <label>Pushback</label>
+            <name>pushback</name>
+            <binding>
+              <command>dialog-show</command>
+              <dialog-name>pushback</dialog-name>
+            </binding>
+          </item>
+        </menu>
+      </default>
+    </menubar>
+
   </sim>
 
   <input>
@@ -119,6 +149,9 @@
       <file>Aircraft/Tu-134-JSB/Nasal/light.nas</file>
       <file>Aircraft/Tu-134-JSB/Nasal/liveries.nas</file>
     </tu134-jsb>
+    <dialogs>
+      <file>Aircraft/Tu-134-JSB/Nasal/dialogs.nas</file>
+    </dialogs>
 <!--    <instruments>
       <file>Aircraft/Tu-134-JSB/Nasal/idr.nas</file>
     </instruments> -->
