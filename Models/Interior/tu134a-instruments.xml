@@ -37,7 +37,7 @@
   <model>
     <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/ai/ai.xml</path>
     <offsets>
-      <x-m>  0.000 </x-m>
+      <x-m> -0.005 </x-m>
       <y-m> -0.560 </y-m>
       <z-m>  0.110 </z-m>
     </offsets>
@@ -197,7 +197,7 @@
 
   <!-- engine temp -->
   <model>
-    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/ut/ut7a-1.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/ut/ut7a_1.xml</path>
     <offsets>
       <x-m>  0.000 </x-m>
       <y-m> -0.107 </y-m>
@@ -217,7 +217,7 @@
 
   <!-- engine temp -->
   <model>
-    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/ut/ut7a-2.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/ut/ut7a_2.xml</path>
     <offsets>
       <x-m>  0.000 </x-m>
       <y-m>  0.107 </y-m>
@@ -277,7 +277,7 @@
 
   <!-- oil temperature -->
   <model>
-    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/uiz/uiz-1.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/uiz/uiz_1.xml</path>
     <offsets>
       <x-m>  0.000 </x-m>
       <y-m> -0.135 </y-m>
@@ -297,7 +297,7 @@
 
   <!-- oil temperature -->
   <model>
-    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/uiz/uiz-2.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/uiz/uiz_2.xml</path>
     <offsets>
       <x-m> 0.000 </x-m>
       <y-m> 0.135 </y-m>
@@ -311,7 +311,7 @@
     <offsets>
       <x-m>  0.000 </x-m>
       <y-m> -0.220 </y-m>
-      <z-m>  0.070 </z-m>
+      <z-m>  0.065 </z-m>
     </offsets>
   </model>
 
@@ -321,7 +321,7 @@
     <offsets>
       <x-m>  0.000 </x-m>
       <y-m> -0.125 </y-m>
-      <z-m>  0.045 </z-m>
+      <z-m>  0.040 </z-m>
     </offsets>
   </model>
 
@@ -369,7 +369,7 @@
   <model>
     <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/com/com-1.xml</path>
     <offsets>
-      <x-m>  0.000 </x-m>
+      <x-m> -0.003 </x-m>
       <y-m>  0.142 </y-m>
       <z-m> -0.075 </z-m>
     </offsets>
@@ -420,9 +420,9 @@
   <model>
     <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/ai/ai.xml</path>
     <offsets>
-      <x-m> 0.000 </x-m>
-      <y-m> 0.550 </y-m>
-      <z-m> 0.110 </z-m>
+      <x-m> -0.005 </x-m>
+      <y-m>  0.550 </y-m>
+      <z-m>  0.110 </z-m>
     </offsets>
   </model>
 

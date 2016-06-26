@@ -11,11 +11,13 @@
 3D instrument for Tu-134 -->
 <PropertyList>
  <path>uiz.ac</path>
+
 <!-- Internal instruments lighting -->
   <animation>
     <type>material</type>
     <object-name>base</object-name>
     <object-name>cover</object-name>
+    <object-name>knob</object-name>
     <object-name>needle_1</object-name>
     <object-name>needle_2</object-name>
     <object-name>needle_3</object-name>
@@ -26,7 +28,12 @@
       <factor-prop>/systems/electrical/outputs/instrument-lights</factor-prop>
     </emission>
   </animation>
-  
+
+  <effect>
+    <inherits-from>Aircraft/Tu-134-JSB/Models/Effects/glass/glass</inherits-from>
+    <object-name>glass</object-name>
+  </effect>
+
 <!--Needles-->
 <animation>
     <type>rotate</type>
@@ -52,7 +59,7 @@
 <animation>
   <type>rotate</type>
   <object-name>needle_2</object-name>
-  <property>engines/engine[1]/oil-pressure-psi</property>-->
+  <property>engines/engine[0]/oil-pressure-psi</property>-->
   <!--Oil pressure Kg/sm-->
   <!--Kg/sm-->
 <!--  <interpolation>

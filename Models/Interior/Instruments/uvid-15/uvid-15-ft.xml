@@ -9,7 +9,6 @@
 <!-- Altimeter UVID-15 feet
 3D instrument for Tu-154 -->
 <PropertyList>
- <path>uvid-15f.ac</path>
 
  <animation>
   <type>material</type>
@@ -361,5 +360,13 @@
   </action>
 </animation>
 
+<!-- Model -->
+<model>
+ <path>uvid-15f.ac</path>
+</model>
 
+<!-- Lamp -->
+<model>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/divers/lamp1.ac</path>
+</model>
 </PropertyList>

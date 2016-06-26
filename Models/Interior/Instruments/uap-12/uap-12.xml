@@ -12,7 +12,6 @@
 <!-- UAP-12 from AUASP (AOA & n & stall warning gauge)
 3D instrument for Tu-154 -->
 <PropertyList>
- <path>uap-12.ac</path>
 
 <!-- External instruments lighting -->
   <animation>
@@ -166,5 +165,20 @@
   </action>
 </animation>
 -->
+
+<!-- Model -->
+<model>
+  <path>uap-12.ac</path>
+</model>
+
+<!-- Lamp -->
+<model>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/divers/lamp1.ac</path>
+</model>
+
+<!-- Shadows -->
+  <model>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/divers/shadow2.ac</path>
+  </model>
 
 </PropertyList>

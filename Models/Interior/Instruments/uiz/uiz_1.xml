@@ -7,11 +7,13 @@
     #############################################################################	  
     -->
 
+<!-- Fuel meter 
+3D instrument for Tu-134 -->
 <PropertyList>
 
 <!-- Model -->
   <model>
-    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/ite/ite_base.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/uiz/uiz_base_1.xml</path>
   </model>
 
 <!-- Lamp -->

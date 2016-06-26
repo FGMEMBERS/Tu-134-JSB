@@ -11,7 +11,7 @@
 
 <!-- Model -->
   <model>
-    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/ite/ite_base.xml</path>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/ut/ut7a_base_2.xml</path>
   </model>
 
 <!-- Lamp -->
@@ -21,7 +21,7 @@
 
 <!-- Shadows -->
   <model>
-    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/divers/shadow2.ac</path>
+    <path>Aircraft/Tu-134-JSB/Models/Interior/Instruments/divers/shadow1.ac</path>
   </model>
 
 </PropertyList>

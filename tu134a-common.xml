@@ -149,9 +149,9 @@
       <file>Aircraft/Tu-134-JSB/Nasal/light.nas</file>
       <file>Aircraft/Tu-134-JSB/Nasal/liveries.nas</file>
     </tu134-jsb>
-    <dialogs>
+<!--    <dialogs>
       <file>Aircraft/Tu-134-JSB/Nasal/dialogs.nas</file>
-    </dialogs>
+    </dialogs>-->
 <!--    <instruments>
       <file>Aircraft/Tu-134-JSB/Nasal/idr.nas</file>
     </instruments> -->
