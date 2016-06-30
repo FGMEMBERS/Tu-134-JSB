@@ -16,26 +16,13 @@
   <type>material</type>
   <object-name>base</object-name>
   <object-name>needle</object-name>
-  <emission>
-    <red-prop>Tu-134/light/instruments/int-red</red-prop>
-    <green-prop>Tu-134/light/instruments/int-green</green-prop>
-    <blue-prop>Tu-134/light/instruments/int-blue</blue-prop>
-  </emission>
-</animation>
-
-<!-- External instruments lighting -->
-<animation>
-  <type>material</type>
-  <object-name>cover</object-name>
-  <emission>
-    <red-prop>Tu-134/light/panel/ext-red</red-prop>
-    <green-prop>Tu-134/light/panel/ext-green</green-prop>
-    <blue-prop>Tu-134/light/panel/ext-blue</blue-prop>
-  </emission>
-</animation>
-
-
-
+    <emission>
+      <factor-prop>Tu-134/instrument-lights</factor-prop>
+      <red>   1.0 </red>
+      <green> 0.5 </green>
+      <blue>  0.5 </blue>
+    </emission>
+  </animation>
 
 <!--Needle-->
 <animation>

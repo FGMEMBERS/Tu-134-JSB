@@ -83,15 +83,34 @@
               }
           },
 
+          ## handle activate button
+          #
+          activateAp : func {
+              if(me.powerAp.getBoolValue())
+              {
+                  foreach (var o; me.modes) {
+                      if (o.getBoolValue()) {
+                          me.lockRoll.setValue(o.getName());
+                      }
+                  }
+              }
+          },
+
           ## handle AT button
           #
           activateAt : func {
               if(me.powerAt.getBoolValue())
               {
-                  var speed = props.globals.getNode("/instrumentation/airspeed-indicator/true-speed-kt", 1).getValues();
+                  var speed = props.globals.getNode("/instrumentation/airspeed-indicator/indicated-speed-kt", 1).getValues();
                   props.globals.getNode("/autopilot/settings/target-speed-kt", 1).setValue(speed);
                   me.lockAt.setValue("speed-with-throttle");
               }
+          },
+
+          ## handle deactivate buttons
+          #
+          deactivateAt : func {
+              me.lockAt.setValue("");
           },
       };
 
@@ -177,6 +196,10 @@
             <col>0</col>
             <pref-height>40</pref-height>
             <pref-width>100</pref-width>
+            <binding>
+               <command>nasal</command>
+               <script>apg.activateAp()</script>
+            </binding>
          </button>
          <button>
             <legend>Stabilize Height</legend>
@@ -209,21 +232,15 @@
                <command>nasal</command>
                <script>apg.setPowerAp()</script>
             </binding>
-            <binding>
-               <command>property-toggle</command>
-            </binding>
-            <binding>
-               <command>dialog-apply</command>
-            </binding>
-            <live>true</live>
          </checkbox>
          <checkbox>
             <label>Roll Channel</label>
             <halign>left</halign>
             <row>1</row>
             <col>0</col>
+            <property>/sim/gui/dialogs/autopilot/channel-roll</property>
             <binding>
-               <command>dialog-update</command>
+               <command>dialog-apply</command>
             </binding>
          </checkbox>
          <checkbox>
@@ -231,8 +248,9 @@
             <halign>left</halign>
             <row>2</row>
             <col>0</col>
+            <property>/sim/gui/dialogs/autopilot/channel-pitch</property>
             <binding>
-               <command>dialog-update</command>
+               <command>dialog-apply</command>
             </binding>
          </checkbox>
          <radio>
@@ -240,11 +258,11 @@
             <halign>left</halign>
             <row>0</row>
             <col>1</col>
-            <property>/sim/gui/dialogs/autopilot/heading-hold</property>
+            <property>/sim/gui/dialogs/autopilot/true-heading-hold</property>
             <live>true</live>
             <binding>
                <command>nasal</command>
-               <script>apg.set("heading-hold")</script>
+               <script>apg.set("true-heading-hold")</script>
             </binding>
          </radio>
          <radio>
@@ -264,11 +282,11 @@
             <halign>left</halign>
             <row>2</row>
             <col>1</col>
-            <property>/sim/gui/dialogs/autopilot/nav-hold</property>
+            <property>/sim/gui/dialogs/autopilot/nav1-hold</property>
             <live>true</live>
             <binding>
                <command>nasal</command>
-               <script>apg.set("nav-hold")</script>
+               <script>apg.set("nav1-hold")</script>
             </binding>
          </radio>
       </group>
@@ -328,7 +346,8 @@
          <col>1</col>
          <legend>l</legend>
          <binding>
-            <command>dialog-update</command>
+            <command>nasal</command>
+            <script>apg.deactivateAt()</script>
          </binding>
       </button>
       <button>
@@ -338,7 +357,8 @@
          <col>2</col>
          <legend>ll</legend>
          <binding>
-            <command>dialog-update</command>
+            <command>nasal</command>
+            <script>apg.deactivateAt()</script>
          </binding>
       </button>
    </group>

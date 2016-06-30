@@ -2,6 +2,33 @@
 <PropertyList>
  <path>hsi.ac</path>
 
+  <!-- Internal instruments lighting -->
+  <animation>
+    <type>material</type>
+    <object-name>base</object-name>
+    <object-name>Ring</object-name>
+    <object-name>needle1</object-name>
+    <object-name>needle2</object-name>
+    <emission>
+      <factor-prop>Tu-134/instrument-lights</factor-prop>
+      <red>   1.0 </red>
+      <green> 0.5 </green>
+      <blue>  0.5 </blue>
+    </emission>
+  </animation>
+
+  <animation>
+    <type>noshadow</type>
+    <object-name>glass</object-name>
+  </animation>
+  
+  <animation>
+    <type>shader</type>
+    <shader>chrome</shader>
+    <texture>Aircraft/Generic/Effects/glass_shader.png</texture>
+    <object-name>glass</object-name>
+  </animation>
+
 <animation>
   <type>rotate</type>
   <object-name>Ring</object-name>

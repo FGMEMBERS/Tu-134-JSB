@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
     #############################################################################
     #    (C) 2007 by Yurik V. Nikiforoff - port for FGFS,  FDM,   	#
@@ -11,27 +11,33 @@
 3D instrument for Tu-134 -->
 <PropertyList>
  <path>idr-1.ac</path>
-<!-- Internal instruments lighting -->
-<animation>
-  <type>material</type>
-  <object-name>text</object-name>
-  <object-name>dig_hund</object-name>
-  <object-name>dig_dec</object-name>
-  <object-name>dig_ones</object-name>
-  <object-name>dig_hm</object-name>
-  <emission>
-    <red-prop>Tu-134/light/instruments/int-red</red-prop>
-    <green-prop>Tu-134/light/instruments/int-green</green-prop>
-    <blue-prop>Tu-134/light/instruments/int-blue</blue-prop>
-  </emission>
-</animation>
+
+  <!-- Internal instruments lighting -->
+  <animation>
+    <type>material</type>
+    <object-name>text</object-name>
+    <object-name>dig_hund</object-name>
+    <object-name>dig_dec</object-name>
+    <object-name>dig_ones</object-name>
+    <object-name>dig_hm</object-name>
+    <emission>
+      <factor-prop>Tu-134/instrument-lights</factor-prop>
+      <red>   1.0 </red>
+      <green> 0.5 </green>
+      <blue>  0.5 </blue>
+    </emission>
+  </animation>
+
 <animation>
   <type>material</type>
   <object-name>blanker</object-name>
-  <emission>
-    <red-prop>Tu-134/light/instruments/int-red</red-prop>
-  </emission>
-</animation>
+    <emission>
+      <factor-prop>Tu-134/instrument-lights</factor-prop>
+      <red>   1.0 </red>
+      <green> 0.0 </green>
+      <blue>  0.0 </blue>
+    </emission>
+  </animation>
 
 <!--Digit wheels-->
 <animation>

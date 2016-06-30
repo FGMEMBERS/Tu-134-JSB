@@ -1456,53 +1456,5 @@
       <pitch-deg> -7.5 </pitch-deg>
     </offsets>
   </model>
-  
-  <animation>
-    <name>LampeGauche</name>
-    <object-name>lightL</object-name>
-    <object-name>glasslightL</object-name>
-  </animation>
-  
-  <animation>
-    <type>rotate</type>
-    <object-name>LampeGauche</object-name>
-    <property>/controls/lighting/landing-lights</property>
-    <interpolation>
-      <entry><ind> 0 </ind><dep>   0 </dep></entry>
-      <entry><ind> 1 </ind><dep> -90 </dep></entry>
-    </interpolation>
-    <axis>
-      <x1-m> -16.16749 </x1-m>
-      <y1-m>  -0.83178 </y1-m>
-      <z1-m>  -2.24425 </z1-m>
-      <x2-m> -16.16749 </x2-m>
-      <y2-m>  -0.86873 </y2-m>
-      <z2-m>  -2.20041 </z2-m>
-    </axis>
-  </animation>
-      
-  <animation>
-    <name>LampeDroite</name>
-    <object-name>lightR</object-name>
-    <object-name>glasslightR</object-name>
-  </animation>
-  
-  <animation>
-    <type>rotate</type>
-    <object-name>LampeDroite</object-name>
-    <property>/controls/lighting/landing-lights</property>
-    <interpolation>
-      <entry><ind> 0 </ind><dep>   0 </dep></entry>
-      <entry><ind> 1 </ind><dep> -90 </dep></entry>
-    </interpolation>
-    <axis>
-      <x1-m> -16.16749 </x1-m>
-      <y1-m>   0.86873 </y1-m>
-      <z1-m>  -2.20041 </z1-m>
-      <x2-m> -16.16749 </x2-m>
-      <y2-m>   0.83178 </y2-m>
-      <z2-m>  -2.24425 </z2-m>
-    </axis>
-  </animation>
-      
+
 </PropertyList>

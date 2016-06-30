@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 #############################################################################
 #    (C) 2007 by Yurik V. Nikiforoff - port for FGFS,  FDM,                 #
@@ -12,20 +12,7 @@
 
 <!-- Comm radio control 3D instrument for Tu-154 -->
 <PropertyList>
-  
   <path>com.ac</path>
-  
-  <animation>
-    <object-name>fond</object-name>
-    <object-name>d1</object-name>
-    <object-name>c1</object-name>
-    <object-name>d2</object-name>
-    <object-name>c2</object-name>
-    <object-name>c3</object-name>
-    <object-name>dig_f_hi</object-name>
-    <object-name>dig_f_low</object-name>
-    
-  </animation>
   
   <animation>
     <type>material</type>
@@ -37,10 +24,10 @@
     <object-name>dig_f_hi</object-name>
     <object-name>dig_f_low</object-name>
     <emission>
-      <factor-prop>/systems/electrical/outputs/instrument-lights</factor-prop>
-      <red>   0.50 </red>
-      <green> 0.25 </green>
-      <blue>  0.25 </blue>
+      <factor-prop>Tu-134/instrument-lights</factor-prop>
+      <red>   1.0 </red>
+      <green> 0.5 </green>
+      <blue>  0.5 </blue>
     </emission>
   </animation>
   

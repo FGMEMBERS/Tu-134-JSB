@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 #############################################################################
 #    Copyright                                                              #
@@ -38,7 +38,18 @@
 
 <!-- Autopilot tablo for Tu-134 3D instrument for Tu-134-->
 <PropertyList>
-  
   <path>tablo_absu.ac</path>
-  
+
+  <!--External panel lighting-->
+  <animation>
+    <type>material</type>
+    <object-name>Plane</object-name>
+    <emission>
+      <factor-prop>Tu-134/instrument-lights</factor-prop>
+      <red>   1.0 </red>
+      <green> 0.5 </green>
+      <blue>  0.5 </blue>
+    </emission>
+  </animation>
+
 </PropertyList>

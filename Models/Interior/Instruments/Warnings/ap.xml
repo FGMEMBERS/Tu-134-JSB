@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 #############################################################################
 #    Copyright                                                              #
@@ -38,10 +38,10 @@
 
 <!-- Autopilot tablo for Tu-134 3D instrument for Tu-134-->
 <PropertyList>
-  
   <path>ap.ac</path>
-  
+
   <animation>
+    <type>material</type>
     <object-name>fond</object-name>
     <object-name>Ap_bok</object-name>
     <object-name>Ap_prod</object-name>
@@ -52,20 +52,14 @@
     <object-name>Vor</object-name>
     <object-name>Kv</object-name>
     <object-name>Anu</object-name>
-    
-  </animation>
-  
-  <animation>
-    <type>material</type>
-    <object-name>fond</object-name>
     <emission>
-      <factor-prop>/systems/electrical/outputs/instrument-lights</factor-prop>
-      <red>   0.50 </red>
-      <green> 0.25 </green>
-      <blue>  0.25 </blue>
+      <factor-prop>Tu-134/instrument-lights</factor-prop>
+      <red>   1.0 </red>
+      <green> 0.5 </green>
+      <blue>  0.5 </blue>
     </emission>
   </animation>
-  
+
   <!--Tablo staff-->
   <animation>
     <type>select</type>
@@ -159,18 +153,17 @@
     <type>select</type>
     <object-name>Zk</object-name>
     <condition>
-      <property>/controls/instrumental/zk</property>
+      <and>
+        <property>/sim/gui/dialogs/autopilot/power-ap</property>
+        <property>/sim/gui/dialogs/autopilot/true-heading-hold</property>
+      </and>
     </condition>
   </animation>
   
   <animation>
     <type>material</type>
     <object-name>Zk</object-name>
-    <condition>
-      <property>/controls/instrumental/zk</property>
-    </condition>
     <emission>
-      <factor-prop>/controls/instrumental/zk</factor-prop>
       <red>   1 </red>
       <green> 1 </green>
       <blue>  1 </blue>
@@ -181,18 +174,14 @@
     <type>select</type>
     <object-name>At</object-name>
     <condition>
-      <property>/controls/instrumental/at</property>
+      <property>/sim/gui/dialogs/autopilot/power-at</property>
     </condition>
   </animation>
   
   <animation>
     <type>material</type>
     <object-name>At</object-name>
-    <condition>
-      <property>/controls/instrumental/at</property>
-    </condition>
     <emission>
-      <factor-prop>/controls/instrumental/at</factor-prop>
       <red>   1 </red>
       <green> 1 </green>
       <blue>  1 </blue>
@@ -203,18 +192,17 @@
     <type>select</type>
     <object-name>Vor</object-name>
     <condition>
-      <property>/controls/instrumental/vor</property>
+      <and>
+        <property>/sim/gui/dialogs/autopilot/power-ap</property>
+        <property>/sim/gui/dialogs/autopilot/nav1-hold</property>
+      </and>
     </condition>
   </animation>
   
   <animation>
     <type>material</type>
     <object-name>Vor</object-name>
-    <condition>
-      <property>/controls/instrumental/vor</property>
-    </condition>
     <emission>
-      <factor-prop>/controls/instrumental/vor</factor-prop>
       <red>   1 </red>
       <green> 1 </green>
       <blue>  1 </blue>

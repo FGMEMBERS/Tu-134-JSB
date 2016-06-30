@@ -14,7 +14,6 @@
     <object-name>base</object-name>
     <object-name>Switch</object-name>
     <emission>
-      <factor-prop>Tu-134/instrument-lights</factor-prop>
       <red>   1.0 </red>
       <green> 0.5 </green>
       <blue>  0.5 </blue>
@@ -31,7 +30,7 @@
       <repeatable>false</repeatable>
       <binding>
         <command>property-toggle</command>
-        <property>/controls/lighting/landing-lights</property>
+        <property>Tu-134/instrument-lights</property>
       </binding>
     </action>
   </animation>
@@ -39,7 +38,7 @@
   <animation>
     <type>rotate</type>
     <object-name>Switch</object-name>
-    <property>/controls/lighting/landing-lights</property>
+    <property>Tu-134/instrument-lights</property>
     <factor> 35 </factor>
     <axis>
       <x>  0 </x>

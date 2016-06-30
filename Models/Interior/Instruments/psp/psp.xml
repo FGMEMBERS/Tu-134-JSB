@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 #############################################################################
 #    Copyright                                                              #
@@ -41,22 +41,6 @@
   <path>psp.ac</path>
   
   <animation>
-    <object-name>Back</object-name>
-    <object-name>k1</object-name>
-    <object-name>g1</object-name>
-    <object-name>k2</object-name>
-    <object-name>sw_1</object-name>
-    <object-name>g2</object-name>
-    <object-name>sw_2</object-name>
-    <object-name>sw_3</object-name>
-    <object-name>k1_lamp</object-name>
-    <object-name>k2_lamp</object-name>
-    <object-name>g1_lamp</object-name>
-    <object-name>g2_lamp</object-name>
-    
-  </animation>
-  
-  <animation>
     <type>material</type>
     <object-name>Back</object-name>
     <object-name>k1</object-name>
@@ -67,10 +51,10 @@
     <object-name>sw_2</object-name>
     <object-name>sw_3</object-name>
     <emission>
-      <factor-prop>/systems/electrical/outputs/instrument-lights</factor-prop>
-      <red>   0.50 </red>
-      <green> 0.25 </green>
-      <blue>  0.25 </blue>
+      <factor-prop>Tu-134/instrument-lights</factor-prop>
+      <red>   1.0 </red>
+      <green> 0.5 </green>
+      <blue>  0.5 </blue>
     </emission>
   </animation>
   

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?> 
+<?xml version="1.0" encoding="UTF-8"?> 
 <!--
 #############################################################################
 #    Copyright                                                              #
@@ -38,37 +38,17 @@
 
 <!-- Engineer tablo for Tu-134 3D instrument for Tu-134-->
 <PropertyList>
-  
   <path>engines.ac</path>
-  
-  <animation>
-    <object-name>fond</object-name>
-    <object-name>Check_eng_0</object-name>
-    <object-name>Fire_eng_0</object-name>
-    <object-name>Rev_lock_0</object-name>
-    <object-name>Rev_0</object-name>
-    <object-name>On_akk</object-name>
-    <object-name>To_500</object-name>
-    <object-name>VNA_0</object-name>
-    <object-name>Fire_VSU</object-name>
-    <object-name>Fuel_low</object-name>
-    <object-name>VNA_1</object-name>
-    <object-name>Check_eng_1</object-name>
-    <object-name>Fire_eng_1</object-name>
-    <object-name>Rev_lock_1</object-name>
-    <object-name>Rev_1</object-name>
-    
-  </animation>
   
   <!--External panel lighting-->
   <animation>
     <type>material</type>
     <object-name>fond</object-name>
     <emission>
-      <factor-prop>/systems/electrical/outputs/instrument-lights</factor-prop>
-      <red>   0.50 </red>
-      <green> 0.25 </green>
-      <blue>  0.25 </blue>
+      <factor-prop>Tu-134/instrument-lights</factor-prop>
+      <red>   1.0 </red>
+      <green> 0.5 </green>
+      <blue>  0.5 </blue>
     </emission>
   </animation>
   

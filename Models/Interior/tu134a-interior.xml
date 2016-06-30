@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 
 <PropertyList>
-
   <path>tu134a-interior.ac</path>
-
-  <animation>
-    <!-- opaque objets -->
-    <object-name>interior</object-name>
-    <object-name>cockpitnose1</object-name>
-    <object-name>floor</object-name>
-    <object-name>spacers</object-name>
-    <object-name>spacersnose</object-name>
-    <object-name>intdoor</object-name>
-    <object-name>spacersdoor</object-name>
-    <object-name>cockpit</object-name>
-    <object-name>panel1</object-name>
-    <object-name>panel2</object-name>
-    <object-name>panel3</object-name>
-    
-    <!-- transparent objects -->
-    <object-name>intwindows</object-name>
-    <object-name>intdoorwindow</object-name>
-    <object-name>intnosewindows</object-name>
-  </animation>
 
   <!-- working for Rembrandt -->
   <effect>
@@ -40,24 +19,16 @@
 
   <animation>
     <type>material</type>
-    <object-name>interior</object-name>
-    <object-name>floor</object-name>
-    <object-name>spacers</object-name>
-    <object-name>spacersnose</object-name>
-    <object-name>intdoor</object-name>
-    <object-name>spacersdoor</object-name>
-    <object-name>cockpit</object-name>
-    <object-name>Seats</object-name>
-    <condition>
-      <greater-than>
-        <property>/sim/time/sun-angle-rad</property>
-        <value>1.57</value>
-      </greater-than>
-    </condition>
+    <object-name>panel1</object-name>
+    <object-name>panel2</object-name>
+    <object-name>panel3</object-name>
+    <object-name>cross_left</object-name>
+    <object-name>cockpit3</object-name>
     <emission>
-      <red>   0.5 </red>
-      <green> 0.5 </green>
-      <blue>  0.5 </blue>
+      <factor-prop>Tu-134/instrument-lights</factor-prop>
+      <red>   1.0 </red>
+      <green> 0.8 </green>
+      <blue>  0.3 </blue>
     </emission>
   </animation>
 
