@@ -1,12 +1,12 @@
-Default
+These liveries were made by COSSACK90 in 2013/2014:
 
-These liveries were made by : xcvb 2016
+aeroflot 2008
 
-aeroflot_new
-
-aeroflot_old
+aeroflot 1977
 
 airkoryo
+
+chernaflot
 
 csa
 
@@ -36,6 +36,14 @@ utair
 
 wizzair
 
-These liveries were made by : COSSACK90 2013/2014
+---------------------
 
-Thanks to him.
+These liveries were made by xcvb in 2016:
+
+aeroflot 1973
+
+---------------------
+
+These liveries were made by berkut in 2016:
+
+aviogenex
